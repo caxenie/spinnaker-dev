@@ -1,0 +1,17 @@
+Vertex: synchain2:0:99 
+edge:synchain2:0:99:synchain2:0:99, keys_and_masks:[KeyAndMask:0x0L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=synchain2:0:99, post_vertex=LiveSpikeReceiver:0:0, traffic_type=EdgeTrafficType.MULTICAST, label=None, traffic_weight=1), keys_and_masks:[KeyAndMask:0x0L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=synchain2:0:99, post_vertex=LiveSpikeReceiver:0:0, traffic_type=EdgeTrafficType.MULTICAST, label=None, traffic_weight=1), keys_and_masks:[KeyAndMask:0x0L:0xffffff80] 
+
+
+Vertex: synchain1:0:99 
+edge:synchain1:0:99:synchain1:0:99, keys_and_masks:[KeyAndMask:0x80L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=synchain1:0:99, post_vertex=LiveSpikeReceiver:0:0, traffic_type=EdgeTrafficType.MULTICAST, label=None, traffic_weight=1), keys_and_masks:[KeyAndMask:0x80L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=synchain1:0:99, post_vertex=LiveSpikeReceiver:0:0, traffic_type=EdgeTrafficType.MULTICAST, label=None, traffic_weight=1), keys_and_masks:[KeyAndMask:0x80L:0xffffff80] 
+
+
+Vertex: <spinn_front_end_common.utility_models.reverse_ip_tag_multicast_source_machine_vertex.ReverseIPTagMulticastSourceMachineVertex object at 0x7f5fce130dd0> 
+edge:<spinn_front_end_common.utility_models.reverse_ip_tag_multicast_source_machine_vertex.ReverseIPTagMulticastSourceMachineVertex object at 0x7f5fce130dd0>:synchain1:0:99, keys_and_masks:[KeyAndMask:0x70000:0xffffff80] 
+edge:<spinn_front_end_common.utility_models.reverse_ip_tag_multicast_source_machine_vertex.ReverseIPTagMulticastSourceMachineVertex object at 0x7f5fce130dd0>:synchain2:0:99, keys_and_masks:[KeyAndMask:0x70000:0xffffff80] 
+
+

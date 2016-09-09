@@ -1,0 +1,83 @@
+<provenance_data_items name="router_provenance">
+  <provenance_data_items name="expected_routers">
+    <provenance_data_items name="router_at_chip_0_0">
+      <provenance_data_item name="Local_Multicast_Packets">6713</provenance_data_item>
+      <provenance_data_item name="External_Multicast_Packets">1440</provenance_data_item>
+      <provenance_data_item name="Dropped_Multicast_Packets">0</provenance_data_item>
+      <provenance_data_item name="Local_P2P_Packets">1246193</provenance_data_item>
+      <provenance_data_item name="External_P2P_Packets">182671</provenance_data_item>
+      <provenance_data_item name="Dropped_P2P_Packets">0</provenance_data_item>
+      <provenance_data_item name="Local_NN_Packets">128856</provenance_data_item>
+      <provenance_data_item name="External_NN_Packets">64424</provenance_data_item>
+      <provenance_data_item name="Dropped_NN_Packets">64428</provenance_data_item>
+      <provenance_data_item name="Local_FR_Packets">0</provenance_data_item>
+      <provenance_data_item name="External_FR_Packets">0</provenance_data_item>
+      <provenance_data_item name="Dropped_FR_Packets">0</provenance_data_item>
+      <provenance_data_item name="Received_For_Reinjection">0</provenance_data_item>
+      <provenance_data_item name="Missed_For_Reinjection">0</provenance_data_item>
+      <provenance_data_item name="Reinjection_Overflows">0</provenance_data_item>
+      <provenance_data_item name="Reinjected">0</provenance_data_item>
+    </provenance_data_items>
+    <provenance_data_items name="router_at_chip_1_0">
+      <provenance_data_item name="Local_Multicast_Packets">5855</provenance_data_item>
+      <provenance_data_item name="External_Multicast_Packets">3112</provenance_data_item>
+      <provenance_data_item name="Dropped_Multicast_Packets">0</provenance_data_item>
+      <provenance_data_item name="Local_P2P_Packets">116323</provenance_data_item>
+      <provenance_data_item name="External_P2P_Packets">794179</provenance_data_item>
+      <provenance_data_item name="Dropped_P2P_Packets">0</provenance_data_item>
+      <provenance_data_item name="Local_NN_Packets">64424</provenance_data_item>
+      <provenance_data_item name="External_NN_Packets">80532</provenance_data_item>
+      <provenance_data_item name="Dropped_NN_Packets">32212</provenance_data_item>
+      <provenance_data_item name="Local_FR_Packets">0</provenance_data_item>
+      <provenance_data_item name="External_FR_Packets">0</provenance_data_item>
+      <provenance_data_item name="Dropped_FR_Packets">0</provenance_data_item>
+      <provenance_data_item name="Received_For_Reinjection">0</provenance_data_item>
+      <provenance_data_item name="Missed_For_Reinjection">0</provenance_data_item>
+      <provenance_data_item name="Reinjection_Overflows">0</provenance_data_item>
+      <provenance_data_item name="Reinjected">0</provenance_data_item>
+    </provenance_data_items>
+    <provenance_data_items name="router_at_chip_1_1">
+      <provenance_data_item name="Local_Multicast_Packets">3264</provenance_data_item>
+      <provenance_data_item name="External_Multicast_Packets">2497</provenance_data_item>
+      <provenance_data_item name="Dropped_Multicast_Packets">0</provenance_data_item>
+      <provenance_data_item name="Local_P2P_Packets">66358</provenance_data_item>
+      <provenance_data_item name="External_P2P_Packets">451930</provenance_data_item>
+      <provenance_data_item name="Dropped_P2P_Packets">0</provenance_data_item>
+      <provenance_data_item name="Local_NN_Packets">64424</provenance_data_item>
+      <provenance_data_item name="External_NN_Packets">80532</provenance_data_item>
+      <provenance_data_item name="Dropped_NN_Packets">32212</provenance_data_item>
+      <provenance_data_item name="Local_FR_Packets">0</provenance_data_item>
+      <provenance_data_item name="External_FR_Packets">0</provenance_data_item>
+      <provenance_data_item name="Dropped_FR_Packets">0</provenance_data_item>
+      <provenance_data_item name="Received_For_Reinjection">0</provenance_data_item>
+      <provenance_data_item name="Missed_For_Reinjection">0</provenance_data_item>
+      <provenance_data_item name="Reinjection_Overflows">0</provenance_data_item>
+      <provenance_data_item name="Reinjected">0</provenance_data_item>
+    </provenance_data_items>
+  </provenance_data_items>
+  <provenance_data_items name="unexpected_routers">
+    <provenance_data_items name="router_at_chip_0_1">
+      <provenance_data_item name="Local_Multicast_Packets">3100305</provenance_data_item>
+      <provenance_data_item name="External_Multicast_Packets">1239195</provenance_data_item>
+      <provenance_data_item name="Dropped_Multicast_Packets">0</provenance_data_item>
+      <provenance_data_item name="Local_P2P_Packets">79416</provenance_data_item>
+      <provenance_data_item name="External_P2P_Packets">11720</provenance_data_item>
+      <provenance_data_item name="Dropped_P2P_Packets">0</provenance_data_item>
+      <provenance_data_item name="Local_NN_Packets">215476</provenance_data_item>
+      <provenance_data_item name="External_NN_Packets">323202</provenance_data_item>
+      <provenance_data_item name="Dropped_NN_Packets">107732</provenance_data_item>
+      <provenance_data_item name="Local_FR_Packets">0</provenance_data_item>
+      <provenance_data_item name="External_FR_Packets">0</provenance_data_item>
+      <provenance_data_item name="Dropped_FR_Packets">0</provenance_data_item>
+      <provenance_data_item name="Received_For_Reinjection">0</provenance_data_item>
+      <provenance_data_item name="Missed_For_Reinjection">0</provenance_data_item>
+      <provenance_data_item name="Reinjection_Overflows">0</provenance_data_item>
+      <provenance_data_item name="Reinjected">0</provenance_data_item>
+    </provenance_data_items>
+  </provenance_data_items>
+  <provenance_data_item name="total_sent_packets">4362381</provenance_data_item>
+  <provenance_data_item name="total_created_packets">3116137</provenance_data_item>
+  <provenance_data_item name="total_dropped_packets">0</provenance_data_item>
+  <provenance_data_item name="total_missed_dropped_packets">0</provenance_data_item>
+  <provenance_data_item name="total_lost_dropped_packets">0</provenance_data_item>
+</provenance_data_items>

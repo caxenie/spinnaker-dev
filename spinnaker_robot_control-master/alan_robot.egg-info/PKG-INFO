@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: alan-robot
+Version: 1.0.0
+Summary: Spiking neural network robot control system running on SpiNNaker
+Home-page: http://alanproject.readthedocs.org/
+Author: Petrut Antoniu Bogdan
+Author-email: pab@cs.man.ac.uk
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 2.7

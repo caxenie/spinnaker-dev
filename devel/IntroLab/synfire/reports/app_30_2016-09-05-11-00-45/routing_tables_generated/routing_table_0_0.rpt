@@ -1,0 +1,23 @@
+Router contains 19 entries
+Index Key        Mask       Route      Default [Cores][Links]
+----- ---------- ---------- ---------- ------- --------------
+    0 0x00001300 0xFFFFFF00 0x00000500 False   [2, 4] []
+    1 0x00000C00 0xFFFFFF00 0x00052000 False   [10, 12, 7] []
+    2 0x000005C0 0xFFFFFFC0 0x00050000 False   [10, 12] []
+    3 0x00000100 0xFFFFFFC0 0x00000500 False   [2, 4] []
+    4 0x00000A80 0xFFFFFFC0 0x00058000 False   [9, 10, 12] []
+    5 0x000001C0 0xFFFFFFC0 0x00005000 False   [8, 6] []
+    6 0x00001200 0xFFFFFF00 0x00000001 False   [] [E]
+    7 0x00001400 0xFFFFFFC0 0x00000500 False   [2, 4] []
+    8 0x00001600 0xFFFFFF00 0x00200001 False   [15] [E]
+    9 0x00001700 0xFFFFFF00 0x00005200 False   [8, 3, 6] []
+   10 0x00000800 0xFFFFFF00 0x00050000 False   [10, 12] []
+   11 0x00000500 0xFFFFFFFF 0x00000500 False   [2, 4] []
+   12 0x00000F00 0xFFFFFFC0 0x00100001 False   [14] [E]
+   13 0x00000E00 0xFFFFFF00 0x00100001 False   [14] [E]
+   14 0x00000F80 0xFFFFFFC0 0x00180001 False   [13, 14] [E]
+   15 0x000014C0 0xFFFFFFC0 0x00005800 False   [8, 5, 6] []
+   16 0x00000000 0xFFFFFF00 0x00000500 False   [2, 4] []
+   17 0x00001100 0xFFFFFF00 0x00120001 False   [11, 14] [E]
+   18 0x00000400 0xFFFFFF00 0x00005000 False   [8, 6] []
+0 Defaultable entries

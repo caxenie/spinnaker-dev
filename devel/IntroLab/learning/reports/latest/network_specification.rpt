@@ -1,0 +1,382 @@
+        Network Specification
+ =====================
+
+Generated: Mo 05 Sep 2016 11:44:24 BST for target machine '192.168.240.253'
+
+*** Vertices:
+Vertex Population 0, size: 40
+Model: IFCurrExp
+constraint: PartitionerMaximumSizeConstraint(size=255)
+
+Vertex Population 1, size: 40
+Model: IFCurrExp
+constraint: PartitionerMaximumSizeConstraint(size=255)
+
+Vertex Population 2, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 3, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 4, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 5, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 6, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 7, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 8, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 9, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 10, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 11, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 12, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 13, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 14, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 15, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 16, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 17, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 18, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 19, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 20, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 21, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 22, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 23, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 24, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 25, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 26, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 27, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 28, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 29, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 30, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 31, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 32, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 33, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 34, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 35, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 36, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 37, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 38, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 39, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 40, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 41, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 42, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 43, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 44, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 45, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 46, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 47, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 48, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 49, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 50, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Population 51, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex expoisson, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex expoisson, size: 40
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+*** Edges:
+Edge Projection 14 from vertex: 'Population 21' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 50 from vertex: 'Population 44' (40 atoms) to vertex: 'Population 1' (40 atoms)
+  Model: No Model
+
+Edge Projection 31 from vertex: 'Population 51' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 26 from vertex: 'Population 45' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 15 from vertex: 'Population 23' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 51 from vertex: 'Population 46' (40 atoms) to vertex: 'Population 1' (40 atoms)
+  Model: No Model
+
+Edge Projection 40 from vertex: 'Population 24' (40 atoms) to vertex: 'Population 1' (40 atoms)
+  Model: No Model
+
+Edge Projection 27 from vertex: 'Population 47' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 16 from vertex: 'Population 25' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 28 from vertex: 'Population 48' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 20 from vertex: 'Population 33' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 3 from vertex: 'Population 3' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 17 from vertex: 'Population 27' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 4 from vertex: 'Population 4' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 0 from vertex: 'expoisson' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 42 from vertex: 'Population 28' (40 atoms) to vertex: 'Population 1' (40 atoms)
+  Model: No Model
+
+Edge Projection 5 from vertex: 'Population 5' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 18 from vertex: 'Population 29' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 6 from vertex: 'Population 6' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 43 from vertex: 'Population 30' (40 atoms) to vertex: 'Population 1' (40 atoms)
+  Model: No Model
+
+Edge Projection 7 from vertex: 'Population 7' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 39 from vertex: 'Population 22' (40 atoms) to vertex: 'Population 1' (40 atoms)
+  Model: No Model
+
+Edge Projection 19 from vertex: 'Population 31' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 41 from vertex: 'Population 26' (40 atoms) to vertex: 'Population 1' (40 atoms)
+  Model: No Model
+
+Edge Projection 32 from vertex: 'Population 8' (40 atoms) to vertex: 'Population 1' (40 atoms)
+  Model: No Model
+
+Edge Projection 29 from vertex: 'Population 49' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 44 from vertex: 'Population 32' (40 atoms) to vertex: 'Population 1' (40 atoms)
+  Model: No Model
+
+Edge Projection 8 from vertex: 'Population 9' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 1 from vertex: 'expoisson' (40 atoms) to vertex: 'Population 1' (40 atoms)
+  Model: No Model
+
+Edge Projection 33 from vertex: 'Population 10' (40 atoms) to vertex: 'Population 1' (40 atoms)
+  Model: No Model
+
+Edge Projection 45 from vertex: 'Population 34' (40 atoms) to vertex: 'Population 1' (40 atoms)
+  Model: No Model
+
+Edge Projection 9 from vertex: 'Population 11' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 52 from vertex: 'Population 0' (40 atoms) to vertex: 'Population 1' (40 atoms)
+  Model: No Model
+
+Edge Projection 21 from vertex: 'Population 35' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 34 from vertex: 'Population 12' (40 atoms) to vertex: 'Population 1' (40 atoms)
+  Model: No Model
+
+Edge Projection 46 from vertex: 'Population 36' (40 atoms) to vertex: 'Population 1' (40 atoms)
+  Model: No Model
+
+Edge Projection 10 from vertex: 'Population 13' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 22 from vertex: 'Population 37' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 35 from vertex: 'Population 14' (40 atoms) to vertex: 'Population 1' (40 atoms)
+  Model: No Model
+
+Edge Projection 47 from vertex: 'Population 38' (40 atoms) to vertex: 'Population 1' (40 atoms)
+  Model: No Model
+
+Edge Projection 11 from vertex: 'Population 15' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 30 from vertex: 'Population 50' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 23 from vertex: 'Population 39' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 36 from vertex: 'Population 16' (40 atoms) to vertex: 'Population 1' (40 atoms)
+  Model: No Model
+
+Edge Projection 2 from vertex: 'Population 2' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 12 from vertex: 'Population 17' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 24 from vertex: 'Population 41' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 37 from vertex: 'Population 18' (40 atoms) to vertex: 'Population 1' (40 atoms)
+  Model: No Model
+
+Edge Projection 49 from vertex: 'Population 42' (40 atoms) to vertex: 'Population 1' (40 atoms)
+  Model: No Model
+
+Edge Projection 13 from vertex: 'Population 19' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 48 from vertex: 'Population 40' (40 atoms) to vertex: 'Population 1' (40 atoms)
+  Model: No Model
+
+Edge Projection 25 from vertex: 'Population 43' (40 atoms) to vertex: 'Population 0' (40 atoms)
+  Model: No Model
+
+Edge Projection 38 from vertex: 'Population 20' (40 atoms) to vertex: 'Population 1' (40 atoms)
+  Model: No Model
+

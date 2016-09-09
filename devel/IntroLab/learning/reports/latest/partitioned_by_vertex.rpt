@@ -1,0 +1,329 @@
+        Placement Information by Vertex
+        ===============================
+
+Generated: Mo 05 Sep 2016 11:44:24 BST for target machine '192.168.240.253'
+
+**** Vertex: 'Population 0'
+Model: IFCurrExp
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 1'
+Model: IFCurrExp
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 10'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 11'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 12'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 13'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 14'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 15'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 16'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 17'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 18'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 19'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 2'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 20'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 21'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 22'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 23'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 24'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 25'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 26'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 27'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 28'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 29'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 3'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 30'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 31'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 32'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 33'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 34'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 35'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 36'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 37'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 38'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 39'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 4'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 40'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 41'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 42'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 43'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 44'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 45'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 46'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 47'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 48'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 49'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 5'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 50'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 51'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 6'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 7'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 8'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'Population 9'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'expoisson'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+
+**** Vertex: 'expoisson'
+Model: SpikeSourcePoisson
+Pop size: 40
+Machine Vertices: 
+  Slice 0:39 (40 atoms) 
+

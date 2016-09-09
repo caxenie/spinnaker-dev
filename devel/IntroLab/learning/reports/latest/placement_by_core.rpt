@@ -1,0 +1,283 @@
+        Placement Information by Core
+        =============================
+
+Generated: Mo 05 Sep 2016 11:44:24 BST for target machine '192.168.240.253'
+
+**** Chip: (0, 0)
+Application cores: 18
+  Processor 1: Vertex: 'Population 0', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: IFCurrExp
+
+
+  Processor 2: Vertex: 'expoisson', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 3: Vertex: 'Population 51', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 4: Vertex: 'Population 50', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 5: Vertex: 'Population 49', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 6: Vertex: 'Population 48', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 7: Vertex: 'Population 47', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 8: Vertex: 'Population 45', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 9: Vertex: 'Population 43', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 10: Vertex: 'Population 41', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 11: Vertex: 'Population 39', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 12: Vertex: 'Population 37', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 13: Vertex: 'Population 35', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 14: Vertex: 'Population 33', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 15: Vertex: 'Population 31', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 16: Vertex: 'Population 29', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+**** Chip: (0, 1)
+Application cores: 18
+  Processor 1: Vertex: 'Population 18', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 2: Vertex: 'Population 16', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 3: Vertex: 'Population 14', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 4: Vertex: 'Population 12', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 5: Vertex: 'Population 10', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 6: Vertex: 'Population 8', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+**** Chip: (1, 0)
+Application cores: 18
+  Processor 1: Vertex: 'Population 27', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 2: Vertex: 'Population 25', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 3: Vertex: 'Population 23', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 4: Vertex: 'Population 21', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 5: Vertex: 'Population 19', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 6: Vertex: 'Population 17', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 7: Vertex: 'Population 15', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 8: Vertex: 'Population 13', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 9: Vertex: 'Population 11', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 10: Vertex: 'Population 9', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 11: Vertex: 'Population 7', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 12: Vertex: 'Population 6', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 13: Vertex: 'Population 5', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 14: Vertex: 'Population 4', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 15: Vertex: 'Population 3', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 16: Vertex: 'Population 2', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+**** Chip: (1, 1)
+Application cores: 18
+  Processor 1: Vertex: 'Population 1', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: IFCurrExp
+
+
+  Processor 2: Vertex: 'expoisson', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 3: Vertex: 'Population 46', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 4: Vertex: 'Population 44', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 5: Vertex: 'Population 42', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 6: Vertex: 'Population 40', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 7: Vertex: 'Population 38', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 8: Vertex: 'Population 36', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 9: Vertex: 'Population 34', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 10: Vertex: 'Population 32', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 11: Vertex: 'Population 30', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 12: Vertex: 'Population 28', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 13: Vertex: 'Population 26', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 14: Vertex: 'Population 24', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 15: Vertex: 'Population 22', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 16: Vertex: 'Population 20', pop size: 40
+              Slice on this core: 0:39 (40 atoms)
+              Model: SpikeSourcePoisson
+
+

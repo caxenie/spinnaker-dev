@@ -1,0 +1,261 @@
+        Placement Information by Vertex
+        ===============================
+
+Generated: Mon Sep  5 09:49:01 2016 for target machine '192.168.240.253'
+
+**** Vertex: 'Hello World at x 0'
+Model: HelloWorldVertex
+ Placed on core (0, 0, 1) 
+
+**** Vertex: 'Hello World at x 1'
+Model: HelloWorldVertex
+ Placed on core (0, 0, 2) 
+
+**** Vertex: 'Hello World at x 10'
+Model: HelloWorldVertex
+ Placed on core (0, 0, 11) 
+
+**** Vertex: 'Hello World at x 11'
+Model: HelloWorldVertex
+ Placed on core (0, 0, 12) 
+
+**** Vertex: 'Hello World at x 12'
+Model: HelloWorldVertex
+ Placed on core (0, 0, 13) 
+
+**** Vertex: 'Hello World at x 13'
+Model: HelloWorldVertex
+ Placed on core (0, 0, 14) 
+
+**** Vertex: 'Hello World at x 14'
+Model: HelloWorldVertex
+ Placed on core (0, 0, 15) 
+
+**** Vertex: 'Hello World at x 15'
+Model: HelloWorldVertex
+ Placed on core (0, 0, 16) 
+
+**** Vertex: 'Hello World at x 16'
+Model: HelloWorldVertex
+ Placed on core (1, 0, 1) 
+
+**** Vertex: 'Hello World at x 17'
+Model: HelloWorldVertex
+ Placed on core (1, 0, 2) 
+
+**** Vertex: 'Hello World at x 18'
+Model: HelloWorldVertex
+ Placed on core (1, 0, 3) 
+
+**** Vertex: 'Hello World at x 19'
+Model: HelloWorldVertex
+ Placed on core (1, 0, 4) 
+
+**** Vertex: 'Hello World at x 2'
+Model: HelloWorldVertex
+ Placed on core (0, 0, 3) 
+
+**** Vertex: 'Hello World at x 20'
+Model: HelloWorldVertex
+ Placed on core (1, 0, 5) 
+
+**** Vertex: 'Hello World at x 21'
+Model: HelloWorldVertex
+ Placed on core (1, 0, 6) 
+
+**** Vertex: 'Hello World at x 22'
+Model: HelloWorldVertex
+ Placed on core (1, 0, 7) 
+
+**** Vertex: 'Hello World at x 23'
+Model: HelloWorldVertex
+ Placed on core (1, 0, 8) 
+
+**** Vertex: 'Hello World at x 24'
+Model: HelloWorldVertex
+ Placed on core (1, 0, 9) 
+
+**** Vertex: 'Hello World at x 25'
+Model: HelloWorldVertex
+ Placed on core (1, 0, 10) 
+
+**** Vertex: 'Hello World at x 26'
+Model: HelloWorldVertex
+ Placed on core (1, 0, 11) 
+
+**** Vertex: 'Hello World at x 27'
+Model: HelloWorldVertex
+ Placed on core (1, 0, 12) 
+
+**** Vertex: 'Hello World at x 28'
+Model: HelloWorldVertex
+ Placed on core (1, 0, 13) 
+
+**** Vertex: 'Hello World at x 29'
+Model: HelloWorldVertex
+ Placed on core (1, 0, 14) 
+
+**** Vertex: 'Hello World at x 3'
+Model: HelloWorldVertex
+ Placed on core (0, 0, 4) 
+
+**** Vertex: 'Hello World at x 30'
+Model: HelloWorldVertex
+ Placed on core (1, 0, 15) 
+
+**** Vertex: 'Hello World at x 31'
+Model: HelloWorldVertex
+ Placed on core (1, 0, 16) 
+
+**** Vertex: 'Hello World at x 32'
+Model: HelloWorldVertex
+ Placed on core (1, 1, 1) 
+
+**** Vertex: 'Hello World at x 33'
+Model: HelloWorldVertex
+ Placed on core (1, 1, 2) 
+
+**** Vertex: 'Hello World at x 34'
+Model: HelloWorldVertex
+ Placed on core (1, 1, 3) 
+
+**** Vertex: 'Hello World at x 35'
+Model: HelloWorldVertex
+ Placed on core (1, 1, 4) 
+
+**** Vertex: 'Hello World at x 36'
+Model: HelloWorldVertex
+ Placed on core (1, 1, 5) 
+
+**** Vertex: 'Hello World at x 37'
+Model: HelloWorldVertex
+ Placed on core (1, 1, 6) 
+
+**** Vertex: 'Hello World at x 38'
+Model: HelloWorldVertex
+ Placed on core (1, 1, 7) 
+
+**** Vertex: 'Hello World at x 39'
+Model: HelloWorldVertex
+ Placed on core (1, 1, 8) 
+
+**** Vertex: 'Hello World at x 4'
+Model: HelloWorldVertex
+ Placed on core (0, 0, 5) 
+
+**** Vertex: 'Hello World at x 40'
+Model: HelloWorldVertex
+ Placed on core (1, 1, 9) 
+
+**** Vertex: 'Hello World at x 41'
+Model: HelloWorldVertex
+ Placed on core (1, 1, 10) 
+
+**** Vertex: 'Hello World at x 42'
+Model: HelloWorldVertex
+ Placed on core (1, 1, 11) 
+
+**** Vertex: 'Hello World at x 43'
+Model: HelloWorldVertex
+ Placed on core (1, 1, 12) 
+
+**** Vertex: 'Hello World at x 44'
+Model: HelloWorldVertex
+ Placed on core (1, 1, 13) 
+
+**** Vertex: 'Hello World at x 45'
+Model: HelloWorldVertex
+ Placed on core (1, 1, 14) 
+
+**** Vertex: 'Hello World at x 46'
+Model: HelloWorldVertex
+ Placed on core (1, 1, 15) 
+
+**** Vertex: 'Hello World at x 47'
+Model: HelloWorldVertex
+ Placed on core (1, 1, 16) 
+
+**** Vertex: 'Hello World at x 48'
+Model: HelloWorldVertex
+ Placed on core (0, 1, 1) 
+
+**** Vertex: 'Hello World at x 49'
+Model: HelloWorldVertex
+ Placed on core (0, 1, 2) 
+
+**** Vertex: 'Hello World at x 5'
+Model: HelloWorldVertex
+ Placed on core (0, 0, 6) 
+
+**** Vertex: 'Hello World at x 50'
+Model: HelloWorldVertex
+ Placed on core (0, 1, 3) 
+
+**** Vertex: 'Hello World at x 51'
+Model: HelloWorldVertex
+ Placed on core (0, 1, 4) 
+
+**** Vertex: 'Hello World at x 52'
+Model: HelloWorldVertex
+ Placed on core (0, 1, 5) 
+
+**** Vertex: 'Hello World at x 53'
+Model: HelloWorldVertex
+ Placed on core (0, 1, 6) 
+
+**** Vertex: 'Hello World at x 54'
+Model: HelloWorldVertex
+ Placed on core (0, 1, 7) 
+
+**** Vertex: 'Hello World at x 55'
+Model: HelloWorldVertex
+ Placed on core (0, 1, 8) 
+
+**** Vertex: 'Hello World at x 56'
+Model: HelloWorldVertex
+ Placed on core (0, 1, 9) 
+
+**** Vertex: 'Hello World at x 57'
+Model: HelloWorldVertex
+ Placed on core (0, 1, 10) 
+
+**** Vertex: 'Hello World at x 58'
+Model: HelloWorldVertex
+ Placed on core (0, 1, 11) 
+
+**** Vertex: 'Hello World at x 59'
+Model: HelloWorldVertex
+ Placed on core (0, 1, 12) 
+
+**** Vertex: 'Hello World at x 6'
+Model: HelloWorldVertex
+ Placed on core (0, 0, 7) 
+
+**** Vertex: 'Hello World at x 60'
+Model: HelloWorldVertex
+ Placed on core (0, 1, 13) 
+
+**** Vertex: 'Hello World at x 61'
+Model: HelloWorldVertex
+ Placed on core (0, 1, 14) 
+
+**** Vertex: 'Hello World at x 62'
+Model: HelloWorldVertex
+ Placed on core (0, 1, 15) 
+
+**** Vertex: 'Hello World at x 63'
+Model: HelloWorldVertex
+ Placed on core (0, 1, 16) 
+
+**** Vertex: 'Hello World at x 7'
+Model: HelloWorldVertex
+ Placed on core (0, 0, 8) 
+
+**** Vertex: 'Hello World at x 8'
+Model: HelloWorldVertex
+ Placed on core (0, 0, 9) 
+
+**** Vertex: 'Hello World at x 9'
+Model: HelloWorldVertex
+ Placed on core (0, 0, 10) 
+

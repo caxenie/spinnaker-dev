@@ -1,0 +1,36 @@
+        Network Specification
+ =====================
+
+Generated: Mon Sep  5 11:15:49 2016 for target machine '192.168.240.253'
+
+*** Vertices:
+Vertex Cells, size: 3645
+Model: IFCurrExp
+constraint: PartitionerMaximumSizeConstraint(size=255)
+
+Vertex LiveSpikeReceiver, size: 1
+Model: LivePacketGather
+constraint: PartitionerMaximumSizeConstraint(size=1)
+constraint: PlacerRadialPlacementFromChipConstraint(x=0, y=0)
+
+Vertex Noise, size: 3645
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+Vertex Stim, size: 2430
+Model: SpikeSourcePoisson
+constraint: PartitionerMaximumSizeConstraint(size=500)
+
+*** Edges:
+Edge Projection 2 from vertex: 'Stim' (2430 atoms) to vertex: 'Cells' (3645 atoms)
+  Model: No Model
+
+Edge Projection 0 from vertex: 'Noise' (3645 atoms) to vertex: 'Cells' (3645 atoms)
+  Model: No Model
+
+Edge recorder_edge from vertex: 'Cells' (3645 atoms) to vertex: 'LiveSpikeReceiver' (1 atoms)
+  Model: No Model
+
+Edge Projection 1 from vertex: 'Cells' (3645 atoms) to vertex: 'Cells' (3645 atoms)
+  Model: No Model
+

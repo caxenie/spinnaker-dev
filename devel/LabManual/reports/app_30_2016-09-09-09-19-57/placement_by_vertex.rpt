@@ -1,0 +1,35 @@
+        Placement Information by Vertex
+        ===============================
+
+Generated: Fri Sep  9 09:19:58 2016 for target machine '192.168.240.253'
+
+**** Vertex: 'LiveSpikeReceiver'
+Model: LivePacketGather
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (0, 0, 1) 
+
+**** Vertex: 'LiveSpikeReceiver'
+Model: LivePacketGather
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (0, 0, 2) 
+
+**** Vertex: 'spike_injector'
+Model: SpikeInjector
+Pop size: 100
+Machine Vertices: 
+  Slice 0:99 (100 atoms) on core (0, 0, 5) 
+
+**** Vertex: 'synchain1'
+Model: IFCurrExp
+Pop size: 100
+Machine Vertices: 
+  Slice 0:99 (100 atoms) on core (0, 0, 3) 
+
+**** Vertex: 'synchain2'
+Model: IFCurrExp
+Pop size: 100
+Machine Vertices: 
+  Slice 0:99 (100 atoms) on core (0, 0, 4) 
+

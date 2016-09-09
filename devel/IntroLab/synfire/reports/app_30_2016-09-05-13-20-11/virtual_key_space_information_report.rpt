@@ -1,0 +1,335 @@
+Vertex: chain_0:255:349 
+edge:chain_0:255:349:chain_1:0:254, keys_and_masks:[KeyAndMask:0x1580L:0xffffff80] 
+edge:chain_0:255:349:chain_1:255:349, keys_and_masks:[KeyAndMask:0x1580L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_0:255:349, post_vertex=chain_0_delayed:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_0_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1580L:0xffffff80] 
+
+
+Vertex: chain_11_delayed:0:254 
+edge:SimpleMachineEdge(pre_vertex=chain_11_delayed:0:254, post_vertex=chain_12:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_11_delayed_to_chain_12, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2300L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_11_delayed:0:254, post_vertex=chain_12:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_11_delayed_to_chain_12, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2300L:0xffffff00] 
+
+
+Vertex: chain_8:255:349 
+edge:chain_8:255:349:chain_9:255:349, keys_and_masks:[KeyAndMask:0x680L:0xffffff80] 
+edge:chain_8:255:349:chain_9:0:254, keys_and_masks:[KeyAndMask:0x680L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_8:255:349, post_vertex=chain_8_delayed:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_8_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x680L:0xffffff80] 
+
+
+Vertex: chain_7:0:254 
+edge:chain_7:0:254:chain_8:255:349, keys_and_masks:[KeyAndMask:0x500L:0xffffff00] 
+edge:chain_7:0:254:chain_8:0:254, keys_and_masks:[KeyAndMask:0x500L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_7:0:254, post_vertex=chain_7_delayed:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_7_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x500L:0xffffff00] 
+
+
+Vertex: chain_12:255:349 
+edge:chain_12:255:349:chain_13:255:349, keys_and_masks:[KeyAndMask:0x1200L:0xffffff80] 
+edge:chain_12:255:349:chain_13:0:254, keys_and_masks:[KeyAndMask:0x1200L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_12:255:349, post_vertex=chain_12_delayed:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_12_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1200L:0xffffff80] 
+
+
+Vertex: chain_4_delayed:0:254 
+edge:SimpleMachineEdge(pre_vertex=chain_4_delayed:0:254, post_vertex=chain_5:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_4_delayed_to_chain_5, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2200L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_4_delayed:0:254, post_vertex=chain_5:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_4_delayed_to_chain_5, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2200L:0xffffff00] 
+
+
+Vertex: chain_6:0:254 
+edge:chain_6:0:254:chain_7:0:254, keys_and_masks:[KeyAndMask:0x400L:0xffffff00] 
+edge:chain_6:0:254:chain_7:255:349, keys_and_masks:[KeyAndMask:0x400L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_6:0:254, post_vertex=chain_6_delayed:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_6_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x400L:0xffffff00] 
+
+
+Vertex: chain_3:255:349 
+edge:chain_3:255:349:chain_4:0:254, keys_and_masks:[KeyAndMask:0x2d00L:0xffffff80] 
+edge:chain_3:255:349:chain_4:255:349, keys_and_masks:[KeyAndMask:0x2d00L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_3:255:349, post_vertex=chain_3_delayed:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_3_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2d00L:0xffffff80] 
+
+
+Vertex: chain_13:0:254 
+edge:chain_13:0:254:chain_14:255:349, keys_and_masks:[KeyAndMask:0x1400L:0xffffff00] 
+edge:chain_13:0:254:chain_14:0:254, keys_and_masks:[KeyAndMask:0x1400L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_13:0:254, post_vertex=chain_13_delayed:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_13_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1400L:0xffffff00] 
+
+
+Vertex: chain_10_delayed:255:349 
+edge:SimpleMachineEdge(pre_vertex=chain_10_delayed:255:349, post_vertex=chain_11:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_10_delayed_to_chain_11, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2100L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_10_delayed:255:349, post_vertex=chain_11:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_10_delayed_to_chain_11, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2100L:0xffffff80] 
+
+
+Vertex: chain_4:0:254 
+edge:chain_4:0:254:chain_5:255:349, keys_and_masks:[KeyAndMask:0x0L:0xffffff00] 
+edge:chain_4:0:254:chain_5:0:254, keys_and_masks:[KeyAndMask:0x0L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_4:0:254, post_vertex=chain_4_delayed:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_4_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x0L:0xffffff00] 
+
+
+Vertex: chain_1:0:254 
+edge:chain_1:0:254:chain_2:0:254, keys_and_masks:[KeyAndMask:0xb00L:0xffffff00] 
+edge:chain_1:0:254:chain_2:255:349, keys_and_masks:[KeyAndMask:0xb00L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_1:0:254, post_vertex=chain_1_delayed:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_1_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0xb00L:0xffffff00] 
+
+
+Vertex: chain_12_delayed:0:254 
+edge:SimpleMachineEdge(pre_vertex=chain_12_delayed:0:254, post_vertex=chain_13:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_12_delayed_to_chain_13, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2600L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_12_delayed:0:254, post_vertex=chain_13:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_12_delayed_to_chain_13, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2600L:0xffffff00] 
+
+
+Vertex: chain_7_delayed:0:254 
+edge:SimpleMachineEdge(pre_vertex=chain_7_delayed:0:254, post_vertex=chain_8:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_7_delayed_to_chain_8, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1c00L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_7_delayed:0:254, post_vertex=chain_8:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_7_delayed_to_chain_8, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1c00L:0xffffff00] 
+
+
+Vertex: chain_5_delayed:255:349 
+edge:SimpleMachineEdge(pre_vertex=chain_5_delayed:255:349, post_vertex=chain_6:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_5_delayed_to_chain_6, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1880L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_5_delayed:255:349, post_vertex=chain_6:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_5_delayed_to_chain_6, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1880L:0xffffff80] 
+
+
+Vertex: chain_10:255:349 
+edge:chain_10:255:349:chain_11:255:349, keys_and_masks:[KeyAndMask:0x980L:0xffffff80] 
+edge:chain_10:255:349:chain_11:0:254, keys_and_masks:[KeyAndMask:0x980L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_10:255:349, post_vertex=chain_10_delayed:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_10_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x980L:0xffffff80] 
+
+
+Vertex: chain_2:255:349 
+edge:chain_2:255:349:chain_3:255:349, keys_and_masks:[KeyAndMask:0x2a80L:0xffffff80] 
+edge:chain_2:255:349:chain_3:0:254, keys_and_masks:[KeyAndMask:0x2a80L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_2:255:349, post_vertex=chain_2_delayed:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_2_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2a80L:0xffffff80] 
+
+
+Vertex: chain_0_delayed:255:349 
+edge:SimpleMachineEdge(pre_vertex=chain_0_delayed:255:349, post_vertex=chain_1:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_0_delayed_to_chain_1, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2480L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_0_delayed:255:349, post_vertex=chain_1:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_0_delayed_to_chain_1, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2480L:0xffffff80] 
+
+
+Vertex: chain_5:255:349 
+edge:chain_5:255:349:chain_6:0:254, keys_and_masks:[KeyAndMask:0x300L:0xffffff80] 
+edge:chain_5:255:349:chain_6:255:349, keys_and_masks:[KeyAndMask:0x300L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_5:255:349, post_vertex=chain_5_delayed:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_5_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x300L:0xffffff80] 
+
+
+Vertex: chain_9:0:254 
+edge:chain_9:0:254:chain_10:255:349, keys_and_masks:[KeyAndMask:0x800L:0xffffff00] 
+edge:chain_9:0:254:chain_10:0:254, keys_and_masks:[KeyAndMask:0x800L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_9:0:254, post_vertex=chain_9_delayed:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_9_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x800L:0xffffff00] 
+
+
+Vertex: chain_8:0:254 
+edge:chain_8:0:254:chain_9:255:349, keys_and_masks:[KeyAndMask:0x700L:0xffffff00] 
+edge:chain_8:0:254:chain_9:0:254, keys_and_masks:[KeyAndMask:0x700L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_8:0:254, post_vertex=chain_8_delayed:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_8_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x700L:0xffffff00] 
+
+
+Vertex: chain_14:0:254 
+edge:chain_14:0:254:chain_0:255:349, keys_and_masks:[KeyAndMask:0x1700L:0xffffff00] 
+edge:chain_14:0:254:chain_0:0:254, keys_and_masks:[KeyAndMask:0x1700L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_14:0:254, post_vertex=chain_14_delayed:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_14_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1700L:0xffffff00] 
+
+
+Vertex: chain_6:255:349 
+edge:chain_6:255:349:chain_7:0:254, keys_and_masks:[KeyAndMask:0x380L:0xffffff80] 
+edge:chain_6:255:349:chain_7:255:349, keys_and_masks:[KeyAndMask:0x380L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_6:255:349, post_vertex=chain_6_delayed:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_6_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x380L:0xffffff80] 
+
+
+Vertex: chain_13_delayed:255:349 
+edge:SimpleMachineEdge(pre_vertex=chain_13_delayed:255:349, post_vertex=chain_14:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_13_delayed_to_chain_14, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2780L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_13_delayed:255:349, post_vertex=chain_14:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_13_delayed_to_chain_14, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2780L:0xffffff80] 
+
+
+Vertex: chain_3:0:254 
+edge:chain_3:0:254:chain_4:0:254, keys_and_masks:[KeyAndMask:0x2c00L:0xffffff00] 
+edge:chain_3:0:254:chain_4:255:349, keys_and_masks:[KeyAndMask:0x2c00L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_3:0:254, post_vertex=chain_3_delayed:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_3_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2c00L:0xffffff00] 
+
+
+Vertex: <spinn_front_end_common.utility_models.reverse_ip_tag_multicast_source_machine_vertex.ReverseIPTagMulticastSourceMachineVertex object at 0x7f9d01b3ba50> 
+edge:<spinn_front_end_common.utility_models.reverse_ip_tag_multicast_source_machine_vertex.ReverseIPTagMulticastSourceMachineVertex object at 0x7f9d01b3ba50>:chain_0:255:349, keys_and_masks:[KeyAndMask:0x180L:0xffffffff] 
+edge:<spinn_front_end_common.utility_models.reverse_ip_tag_multicast_source_machine_vertex.ReverseIPTagMulticastSourceMachineVertex object at 0x7f9d01b3ba50>:chain_0:0:254, keys_and_masks:[KeyAndMask:0x180L:0xffffffff] 
+
+
+Vertex: chain_4:255:349 
+edge:chain_4:255:349:chain_5:255:349, keys_and_masks:[KeyAndMask:0x100L:0xffffff80] 
+edge:chain_4:255:349:chain_5:0:254, keys_and_masks:[KeyAndMask:0x100L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_4:255:349, post_vertex=chain_4_delayed:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_4_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x100L:0xffffff80] 
+
+
+Vertex: chain_14_delayed:0:254 
+edge:SimpleMachineEdge(pre_vertex=chain_14_delayed:0:254, post_vertex=chain_0:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_14_delayed_to_chain_0, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2900L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_14_delayed:0:254, post_vertex=chain_0:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_14_delayed_to_chain_0, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2900L:0xffffff00] 
+
+
+Vertex: chain_7_delayed:255:349 
+edge:SimpleMachineEdge(pre_vertex=chain_7_delayed:255:349, post_vertex=chain_8:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_7_delayed_to_chain_8, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1b80L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_7_delayed:255:349, post_vertex=chain_8:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_7_delayed_to_chain_8, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1b80L:0xffffff80] 
+
+
+Vertex: chain_9:255:349 
+edge:chain_9:255:349:chain_10:255:349, keys_and_masks:[KeyAndMask:0x900L:0xffffff80] 
+edge:chain_9:255:349:chain_10:0:254, keys_and_masks:[KeyAndMask:0x900L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_9:255:349, post_vertex=chain_9_delayed:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_9_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x900L:0xffffff80] 
+
+
+Vertex: chain_6_delayed:0:254 
+edge:SimpleMachineEdge(pre_vertex=chain_6_delayed:0:254, post_vertex=chain_7:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_6_delayed_to_chain_7, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1a00L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_6_delayed:0:254, post_vertex=chain_7:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_6_delayed_to_chain_7, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1a00L:0xffffff00] 
+
+
+Vertex: chain_11:0:254 
+edge:chain_11:0:254:chain_12:255:349, keys_and_masks:[KeyAndMask:0xe00L:0xffffff00] 
+edge:chain_11:0:254:chain_12:0:254, keys_and_masks:[KeyAndMask:0xe00L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_11:0:254, post_vertex=chain_11_delayed:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_11_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0xe00L:0xffffff00] 
+
+
+Vertex: chain_10:0:254 
+edge:chain_10:0:254:chain_11:255:349, keys_and_masks:[KeyAndMask:0xa00L:0xffffff00] 
+edge:chain_10:0:254:chain_11:0:254, keys_and_masks:[KeyAndMask:0xa00L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_10:0:254, post_vertex=chain_10_delayed:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_10_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0xa00L:0xffffff00] 
+
+
+Vertex: chain_2_delayed:255:349 
+edge:SimpleMachineEdge(pre_vertex=chain_2_delayed:255:349, post_vertex=chain_3:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_2_delayed_to_chain_3, traffic_weight=1), keys_and_masks:[KeyAndMask:0xf80L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_2_delayed:255:349, post_vertex=chain_3:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_2_delayed_to_chain_3, traffic_weight=1), keys_and_masks:[KeyAndMask:0xf80L:0xffffff80] 
+
+
+Vertex: chain_7:255:349 
+edge:chain_7:255:349:chain_8:255:349, keys_and_masks:[KeyAndMask:0x600L:0xffffff80] 
+edge:chain_7:255:349:chain_8:0:254, keys_and_masks:[KeyAndMask:0x600L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_7:255:349, post_vertex=chain_7_delayed:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_7_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x600L:0xffffff80] 
+
+
+Vertex: chain_4_delayed:255:349 
+edge:SimpleMachineEdge(pre_vertex=chain_4_delayed:255:349, post_vertex=chain_5:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_4_delayed_to_chain_5, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2180L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_4_delayed:255:349, post_vertex=chain_5:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_4_delayed_to_chain_5, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2180L:0xffffff80] 
+
+
+Vertex: chain_1_delayed:255:349 
+edge:SimpleMachineEdge(pre_vertex=chain_1_delayed:255:349, post_vertex=chain_2:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_1_delayed_to_chain_2, traffic_weight=1), keys_and_masks:[KeyAndMask:0xc80L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_1_delayed:255:349, post_vertex=chain_2:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_1_delayed_to_chain_2, traffic_weight=1), keys_and_masks:[KeyAndMask:0xc80L:0xffffff80] 
+
+
+Vertex: chain_1_delayed:0:254 
+edge:SimpleMachineEdge(pre_vertex=chain_1_delayed:0:254, post_vertex=chain_2:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_1_delayed_to_chain_2, traffic_weight=1), keys_and_masks:[KeyAndMask:0xd00L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_1_delayed:0:254, post_vertex=chain_2:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_1_delayed_to_chain_2, traffic_weight=1), keys_and_masks:[KeyAndMask:0xd00L:0xffffff00] 
+
+
+Vertex: chain_11_delayed:255:349 
+edge:SimpleMachineEdge(pre_vertex=chain_11_delayed:255:349, post_vertex=chain_12:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_11_delayed_to_chain_12, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2400L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_11_delayed:255:349, post_vertex=chain_12:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_11_delayed_to_chain_12, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2400L:0xffffff80] 
+
+
+Vertex: chain_5:0:254 
+edge:chain_5:0:254:chain_6:0:254, keys_and_masks:[KeyAndMask:0x200L:0xffffff00] 
+edge:chain_5:0:254:chain_6:255:349, keys_and_masks:[KeyAndMask:0x200L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_5:0:254, post_vertex=chain_5_delayed:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_5_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x200L:0xffffff00] 
+
+
+Vertex: chain_9_delayed:0:254 
+edge:SimpleMachineEdge(pre_vertex=chain_9_delayed:0:254, post_vertex=chain_10:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_9_delayed_to_chain_10, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1f00L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_9_delayed:0:254, post_vertex=chain_10:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_9_delayed_to_chain_10, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1f00L:0xffffff00] 
+
+
+Vertex: chain_13_delayed:0:254 
+edge:SimpleMachineEdge(pre_vertex=chain_13_delayed:0:254, post_vertex=chain_14:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_13_delayed_to_chain_14, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2800L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_13_delayed:0:254, post_vertex=chain_14:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_13_delayed_to_chain_14, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2800L:0xffffff00] 
+
+
+Vertex: chain_8_delayed:0:254 
+edge:SimpleMachineEdge(pre_vertex=chain_8_delayed:0:254, post_vertex=chain_9:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_8_delayed_to_chain_9, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1d00L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_8_delayed:0:254, post_vertex=chain_9:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_8_delayed_to_chain_9, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1d00L:0xffffff00] 
+
+
+Vertex: chain_1:255:349 
+edge:chain_1:255:349:chain_2:0:254, keys_and_masks:[KeyAndMask:0xc00L:0xffffff80] 
+edge:chain_1:255:349:chain_2:255:349, keys_and_masks:[KeyAndMask:0xc00L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_1:255:349, post_vertex=chain_1_delayed:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_1_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0xc00L:0xffffff80] 
+
+
+Vertex: chain_9_delayed:255:349 
+edge:SimpleMachineEdge(pre_vertex=chain_9_delayed:255:349, post_vertex=chain_10:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_9_delayed_to_chain_10, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1e80L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_9_delayed:255:349, post_vertex=chain_10:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_9_delayed_to_chain_10, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1e80L:0xffffff80] 
+
+
+Vertex: chain_6_delayed:255:349 
+edge:SimpleMachineEdge(pre_vertex=chain_6_delayed:255:349, post_vertex=chain_7:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_6_delayed_to_chain_7, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1b00L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_6_delayed:255:349, post_vertex=chain_7:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_6_delayed_to_chain_7, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1b00L:0xffffff80] 
+
+
+Vertex: chain_11:255:349 
+edge:chain_11:255:349:chain_12:255:349, keys_and_masks:[KeyAndMask:0xf00L:0xffffff80] 
+edge:chain_11:255:349:chain_12:0:254, keys_and_masks:[KeyAndMask:0xf00L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_11:255:349, post_vertex=chain_11_delayed:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_11_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0xf00L:0xffffff80] 
+
+
+Vertex: chain_14:255:349 
+edge:chain_14:255:349:chain_0:255:349, keys_and_masks:[KeyAndMask:0x1800L:0xffffff80] 
+edge:chain_14:255:349:chain_0:0:254, keys_and_masks:[KeyAndMask:0x1800L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_14:255:349, post_vertex=chain_14_delayed:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_14_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1800L:0xffffff80] 
+
+
+Vertex: chain_3_delayed:0:254 
+edge:SimpleMachineEdge(pre_vertex=chain_3_delayed:0:254, post_vertex=chain_4:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_3_delayed_to_chain_4, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1300L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_3_delayed:0:254, post_vertex=chain_4:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_3_delayed_to_chain_4, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1300L:0xffffff00] 
+
+
+Vertex: chain_0:0:254 
+edge:chain_0:0:254:chain_1:0:254, keys_and_masks:[KeyAndMask:0x1600L:0xffffff00] 
+edge:chain_0:0:254:chain_1:255:349, keys_and_masks:[KeyAndMask:0x1600L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_0:0:254, post_vertex=chain_0_delayed:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_0_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1600L:0xffffff00] 
+
+
+Vertex: chain_3_delayed:255:349 
+edge:SimpleMachineEdge(pre_vertex=chain_3_delayed:255:349, post_vertex=chain_4:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_3_delayed_to_chain_4, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1280L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_3_delayed:255:349, post_vertex=chain_4:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_3_delayed_to_chain_4, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1280L:0xffffff80] 
+
+
+Vertex: chain_0_delayed:0:254 
+edge:SimpleMachineEdge(pre_vertex=chain_0_delayed:0:254, post_vertex=chain_1:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_0_delayed_to_chain_1, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2500L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_0_delayed:0:254, post_vertex=chain_1:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_0_delayed_to_chain_1, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2500L:0xffffff00] 
+
+
+Vertex: chain_10_delayed:0:254 
+edge:SimpleMachineEdge(pre_vertex=chain_10_delayed:0:254, post_vertex=chain_11:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_10_delayed_to_chain_11, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2000L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_10_delayed:0:254, post_vertex=chain_11:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_10_delayed_to_chain_11, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2000L:0xffffff00] 
+
+
+Vertex: chain_12:0:254 
+edge:chain_12:0:254:chain_13:255:349, keys_and_masks:[KeyAndMask:0x1100L:0xffffff00] 
+edge:chain_12:0:254:chain_13:0:254, keys_and_masks:[KeyAndMask:0x1100L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_12:0:254, post_vertex=chain_12_delayed:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_12_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1100L:0xffffff00] 
+
+
+Vertex: chain_14_delayed:255:349 
+edge:SimpleMachineEdge(pre_vertex=chain_14_delayed:255:349, post_vertex=chain_0:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_14_delayed_to_chain_0, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2a00L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_14_delayed:255:349, post_vertex=chain_0:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_14_delayed_to_chain_0, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2a00L:0xffffff80] 
+
+
+Vertex: chain_2_delayed:0:254 
+edge:SimpleMachineEdge(pre_vertex=chain_2_delayed:0:254, post_vertex=chain_3:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_2_delayed_to_chain_3, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1000L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_2_delayed:0:254, post_vertex=chain_3:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_2_delayed_to_chain_3, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1000L:0xffffff00] 
+
+
+Vertex: chain_13:255:349 
+edge:chain_13:255:349:chain_14:255:349, keys_and_masks:[KeyAndMask:0x1500L:0xffffff80] 
+edge:chain_13:255:349:chain_14:0:254, keys_and_masks:[KeyAndMask:0x1500L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_13:255:349, post_vertex=chain_13_delayed:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_13_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1500L:0xffffff80] 
+
+
+Vertex: chain_5_delayed:0:254 
+edge:SimpleMachineEdge(pre_vertex=chain_5_delayed:0:254, post_vertex=chain_6:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_5_delayed_to_chain_6, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1900L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_5_delayed:0:254, post_vertex=chain_6:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_5_delayed_to_chain_6, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1900L:0xffffff00] 
+
+
+Vertex: chain_8_delayed:255:349 
+edge:SimpleMachineEdge(pre_vertex=chain_8_delayed:255:349, post_vertex=chain_9:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_8_delayed_to_chain_9, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1e00L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_8_delayed:255:349, post_vertex=chain_9:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_8_delayed_to_chain_9, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1e00L:0xffffff80] 
+
+
+Vertex: chain_2:0:254 
+edge:chain_2:0:254:chain_3:255:349, keys_and_masks:[KeyAndMask:0x2b00L:0xffffff00] 
+edge:chain_2:0:254:chain_3:0:254, keys_and_masks:[KeyAndMask:0x2b00L:0xffffff00] 
+edge:SimpleMachineEdge(pre_vertex=chain_2:0:254, post_vertex=chain_2_delayed:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_2_to_DelayExtension, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2b00L:0xffffff00] 
+
+
+Vertex: chain_12_delayed:255:349 
+edge:SimpleMachineEdge(pre_vertex=chain_12_delayed:255:349, post_vertex=chain_13:255:349, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_12_delayed_to_chain_13, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2700L:0xffffff80] 
+edge:SimpleMachineEdge(pre_vertex=chain_12_delayed:255:349, post_vertex=chain_13:0:254, traffic_type=EdgeTrafficType.MULTICAST, label=machine_edge_forchain_12_delayed_to_chain_13, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2700L:0xffffff80] 
+
+

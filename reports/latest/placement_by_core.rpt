@@ -1,0 +1,333 @@
+        Placement Information by Core
+        =============================
+
+Generated: Mon Sep  5 09:49:01 2016 for target machine '192.168.240.253'
+
+**** Chip: (0, 0)
+Application cores: 18
+  Processor 1: Vertex: 'Hello World at x 0' 
+  Processor 1: Vertex: 'Hello World at x 0' 
+              Model: HelloWorldVertex
+
+
+  Processor 2: Vertex: 'Hello World at x 1' 
+  Processor 2: Vertex: 'Hello World at x 1' 
+              Model: HelloWorldVertex
+
+
+  Processor 3: Vertex: 'Hello World at x 2' 
+  Processor 3: Vertex: 'Hello World at x 2' 
+              Model: HelloWorldVertex
+
+
+  Processor 4: Vertex: 'Hello World at x 3' 
+  Processor 4: Vertex: 'Hello World at x 3' 
+              Model: HelloWorldVertex
+
+
+  Processor 5: Vertex: 'Hello World at x 4' 
+  Processor 5: Vertex: 'Hello World at x 4' 
+              Model: HelloWorldVertex
+
+
+  Processor 6: Vertex: 'Hello World at x 5' 
+  Processor 6: Vertex: 'Hello World at x 5' 
+              Model: HelloWorldVertex
+
+
+  Processor 7: Vertex: 'Hello World at x 6' 
+  Processor 7: Vertex: 'Hello World at x 6' 
+              Model: HelloWorldVertex
+
+
+  Processor 8: Vertex: 'Hello World at x 7' 
+  Processor 8: Vertex: 'Hello World at x 7' 
+              Model: HelloWorldVertex
+
+
+  Processor 9: Vertex: 'Hello World at x 8' 
+  Processor 9: Vertex: 'Hello World at x 8' 
+              Model: HelloWorldVertex
+
+
+  Processor 10: Vertex: 'Hello World at x 9' 
+  Processor 10: Vertex: 'Hello World at x 9' 
+              Model: HelloWorldVertex
+
+
+  Processor 11: Vertex: 'Hello World at x 10' 
+  Processor 11: Vertex: 'Hello World at x 10' 
+              Model: HelloWorldVertex
+
+
+  Processor 12: Vertex: 'Hello World at x 11' 
+  Processor 12: Vertex: 'Hello World at x 11' 
+              Model: HelloWorldVertex
+
+
+  Processor 13: Vertex: 'Hello World at x 12' 
+  Processor 13: Vertex: 'Hello World at x 12' 
+              Model: HelloWorldVertex
+
+
+  Processor 14: Vertex: 'Hello World at x 13' 
+  Processor 14: Vertex: 'Hello World at x 13' 
+              Model: HelloWorldVertex
+
+
+  Processor 15: Vertex: 'Hello World at x 14' 
+  Processor 15: Vertex: 'Hello World at x 14' 
+              Model: HelloWorldVertex
+
+
+  Processor 16: Vertex: 'Hello World at x 15' 
+  Processor 16: Vertex: 'Hello World at x 15' 
+              Model: HelloWorldVertex
+
+
+**** Chip: (0, 1)
+Application cores: 18
+  Processor 1: Vertex: 'Hello World at x 48' 
+  Processor 1: Vertex: 'Hello World at x 48' 
+              Model: HelloWorldVertex
+
+
+  Processor 2: Vertex: 'Hello World at x 49' 
+  Processor 2: Vertex: 'Hello World at x 49' 
+              Model: HelloWorldVertex
+
+
+  Processor 3: Vertex: 'Hello World at x 50' 
+  Processor 3: Vertex: 'Hello World at x 50' 
+              Model: HelloWorldVertex
+
+
+  Processor 4: Vertex: 'Hello World at x 51' 
+  Processor 4: Vertex: 'Hello World at x 51' 
+              Model: HelloWorldVertex
+
+
+  Processor 5: Vertex: 'Hello World at x 52' 
+  Processor 5: Vertex: 'Hello World at x 52' 
+              Model: HelloWorldVertex
+
+
+  Processor 6: Vertex: 'Hello World at x 53' 
+  Processor 6: Vertex: 'Hello World at x 53' 
+              Model: HelloWorldVertex
+
+
+  Processor 7: Vertex: 'Hello World at x 54' 
+  Processor 7: Vertex: 'Hello World at x 54' 
+              Model: HelloWorldVertex
+
+
+  Processor 8: Vertex: 'Hello World at x 55' 
+  Processor 8: Vertex: 'Hello World at x 55' 
+              Model: HelloWorldVertex
+
+
+  Processor 9: Vertex: 'Hello World at x 56' 
+  Processor 9: Vertex: 'Hello World at x 56' 
+              Model: HelloWorldVertex
+
+
+  Processor 10: Vertex: 'Hello World at x 57' 
+  Processor 10: Vertex: 'Hello World at x 57' 
+              Model: HelloWorldVertex
+
+
+  Processor 11: Vertex: 'Hello World at x 58' 
+  Processor 11: Vertex: 'Hello World at x 58' 
+              Model: HelloWorldVertex
+
+
+  Processor 12: Vertex: 'Hello World at x 59' 
+  Processor 12: Vertex: 'Hello World at x 59' 
+              Model: HelloWorldVertex
+
+
+  Processor 13: Vertex: 'Hello World at x 60' 
+  Processor 13: Vertex: 'Hello World at x 60' 
+              Model: HelloWorldVertex
+
+
+  Processor 14: Vertex: 'Hello World at x 61' 
+  Processor 14: Vertex: 'Hello World at x 61' 
+              Model: HelloWorldVertex
+
+
+  Processor 15: Vertex: 'Hello World at x 62' 
+  Processor 15: Vertex: 'Hello World at x 62' 
+              Model: HelloWorldVertex
+
+
+  Processor 16: Vertex: 'Hello World at x 63' 
+  Processor 16: Vertex: 'Hello World at x 63' 
+              Model: HelloWorldVertex
+
+
+**** Chip: (1, 0)
+Application cores: 18
+  Processor 1: Vertex: 'Hello World at x 16' 
+  Processor 1: Vertex: 'Hello World at x 16' 
+              Model: HelloWorldVertex
+
+
+  Processor 2: Vertex: 'Hello World at x 17' 
+  Processor 2: Vertex: 'Hello World at x 17' 
+              Model: HelloWorldVertex
+
+
+  Processor 3: Vertex: 'Hello World at x 18' 
+  Processor 3: Vertex: 'Hello World at x 18' 
+              Model: HelloWorldVertex
+
+
+  Processor 4: Vertex: 'Hello World at x 19' 
+  Processor 4: Vertex: 'Hello World at x 19' 
+              Model: HelloWorldVertex
+
+
+  Processor 5: Vertex: 'Hello World at x 20' 
+  Processor 5: Vertex: 'Hello World at x 20' 
+              Model: HelloWorldVertex
+
+
+  Processor 6: Vertex: 'Hello World at x 21' 
+  Processor 6: Vertex: 'Hello World at x 21' 
+              Model: HelloWorldVertex
+
+
+  Processor 7: Vertex: 'Hello World at x 22' 
+  Processor 7: Vertex: 'Hello World at x 22' 
+              Model: HelloWorldVertex
+
+
+  Processor 8: Vertex: 'Hello World at x 23' 
+  Processor 8: Vertex: 'Hello World at x 23' 
+              Model: HelloWorldVertex
+
+
+  Processor 9: Vertex: 'Hello World at x 24' 
+  Processor 9: Vertex: 'Hello World at x 24' 
+              Model: HelloWorldVertex
+
+
+  Processor 10: Vertex: 'Hello World at x 25' 
+  Processor 10: Vertex: 'Hello World at x 25' 
+              Model: HelloWorldVertex
+
+
+  Processor 11: Vertex: 'Hello World at x 26' 
+  Processor 11: Vertex: 'Hello World at x 26' 
+              Model: HelloWorldVertex
+
+
+  Processor 12: Vertex: 'Hello World at x 27' 
+  Processor 12: Vertex: 'Hello World at x 27' 
+              Model: HelloWorldVertex
+
+
+  Processor 13: Vertex: 'Hello World at x 28' 
+  Processor 13: Vertex: 'Hello World at x 28' 
+              Model: HelloWorldVertex
+
+
+  Processor 14: Vertex: 'Hello World at x 29' 
+  Processor 14: Vertex: 'Hello World at x 29' 
+              Model: HelloWorldVertex
+
+
+  Processor 15: Vertex: 'Hello World at x 30' 
+  Processor 15: Vertex: 'Hello World at x 30' 
+              Model: HelloWorldVertex
+
+
+  Processor 16: Vertex: 'Hello World at x 31' 
+  Processor 16: Vertex: 'Hello World at x 31' 
+              Model: HelloWorldVertex
+
+
+**** Chip: (1, 1)
+Application cores: 18
+  Processor 1: Vertex: 'Hello World at x 32' 
+  Processor 1: Vertex: 'Hello World at x 32' 
+              Model: HelloWorldVertex
+
+
+  Processor 2: Vertex: 'Hello World at x 33' 
+  Processor 2: Vertex: 'Hello World at x 33' 
+              Model: HelloWorldVertex
+
+
+  Processor 3: Vertex: 'Hello World at x 34' 
+  Processor 3: Vertex: 'Hello World at x 34' 
+              Model: HelloWorldVertex
+
+
+  Processor 4: Vertex: 'Hello World at x 35' 
+  Processor 4: Vertex: 'Hello World at x 35' 
+              Model: HelloWorldVertex
+
+
+  Processor 5: Vertex: 'Hello World at x 36' 
+  Processor 5: Vertex: 'Hello World at x 36' 
+              Model: HelloWorldVertex
+
+
+  Processor 6: Vertex: 'Hello World at x 37' 
+  Processor 6: Vertex: 'Hello World at x 37' 
+              Model: HelloWorldVertex
+
+
+  Processor 7: Vertex: 'Hello World at x 38' 
+  Processor 7: Vertex: 'Hello World at x 38' 
+              Model: HelloWorldVertex
+
+
+  Processor 8: Vertex: 'Hello World at x 39' 
+  Processor 8: Vertex: 'Hello World at x 39' 
+              Model: HelloWorldVertex
+
+
+  Processor 9: Vertex: 'Hello World at x 40' 
+  Processor 9: Vertex: 'Hello World at x 40' 
+              Model: HelloWorldVertex
+
+
+  Processor 10: Vertex: 'Hello World at x 41' 
+  Processor 10: Vertex: 'Hello World at x 41' 
+              Model: HelloWorldVertex
+
+
+  Processor 11: Vertex: 'Hello World at x 42' 
+  Processor 11: Vertex: 'Hello World at x 42' 
+              Model: HelloWorldVertex
+
+
+  Processor 12: Vertex: 'Hello World at x 43' 
+  Processor 12: Vertex: 'Hello World at x 43' 
+              Model: HelloWorldVertex
+
+
+  Processor 13: Vertex: 'Hello World at x 44' 
+  Processor 13: Vertex: 'Hello World at x 44' 
+              Model: HelloWorldVertex
+
+
+  Processor 14: Vertex: 'Hello World at x 45' 
+  Processor 14: Vertex: 'Hello World at x 45' 
+              Model: HelloWorldVertex
+
+
+  Processor 15: Vertex: 'Hello World at x 46' 
+  Processor 15: Vertex: 'Hello World at x 46' 
+              Model: HelloWorldVertex
+
+
+  Processor 16: Vertex: 'Hello World at x 47' 
+  Processor 16: Vertex: 'Hello World at x 47' 
+              Model: HelloWorldVertex
+
+

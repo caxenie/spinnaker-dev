@@ -1,0 +1,356 @@
+Vertex: Stim:1000:1499 
+edge:Stim:1000:1499:Cells:2040:2294, keys_and_masks:[KeyAndMask:0x400L:0xfffffe00] 
+edge:Stim:1000:1499:Cells:1530:1784, keys_and_masks:[KeyAndMask:0x400L:0xfffffe00] 
+edge:Stim:1000:1499:Cells:1785:2039, keys_and_masks:[KeyAndMask:0x400L:0xfffffe00] 
+
+
+Vertex: Stim:500:999 
+edge:Stim:500:999:Cells:1275:1529, keys_and_masks:[KeyAndMask:0x200L:0xfffffe00] 
+edge:Stim:500:999:Cells:765:1019, keys_and_masks:[KeyAndMask:0x200L:0xfffffe00] 
+edge:Stim:500:999:Cells:1020:1274, keys_and_masks:[KeyAndMask:0x200L:0xfffffe00] 
+
+
+Vertex: Noise:500:999 
+edge:Noise:500:999:Cells:510:764, keys_and_masks:[KeyAndMask:0xc00L:0xfffffe00] 
+edge:Noise:500:999:Cells:765:1019, keys_and_masks:[KeyAndMask:0xc00L:0xfffffe00] 
+edge:Noise:500:999:Cells:255:509, keys_and_masks:[KeyAndMask:0xc00L:0xfffffe00] 
+
+
+Vertex: Stim:2000:2429 
+edge:Stim:2000:2429:Cells:2805:3059, keys_and_masks:[KeyAndMask:0x800L:0xfffffe00] 
+edge:Stim:2000:2429:Cells:3570:3644, keys_and_masks:[KeyAndMask:0x800L:0xfffffe00] 
+edge:Stim:2000:2429:Cells:3060:3314, keys_and_masks:[KeyAndMask:0x800L:0xfffffe00] 
+edge:Stim:2000:2429:Cells:3315:3569, keys_and_masks:[KeyAndMask:0x800L:0xfffffe00] 
+
+
+Vertex: Cells:2040:2294 
+edge:SimpleMachineEdge(pre_vertex=Cells:2040:2294, post_vertex=LiveSpikeReceiver:0:0, traffic_type=EdgeTrafficType.MULTICAST, label=None, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2100L:0xffffff00] 
+edge:Cells:2040:2294:Cells:510:764, keys_and_masks:[KeyAndMask:0x2100L:0xffffff00] 
+edge:Cells:2040:2294:Cells:1275:1529, keys_and_masks:[KeyAndMask:0x2100L:0xffffff00] 
+edge:Cells:2040:2294:Cells:2040:2294, keys_and_masks:[KeyAndMask:0x2100L:0xffffff00] 
+edge:Cells:2040:2294:Cells:2805:3059, keys_and_masks:[KeyAndMask:0x2100L:0xffffff00] 
+edge:Cells:2040:2294:Cells:765:1019, keys_and_masks:[KeyAndMask:0x2100L:0xffffff00] 
+edge:Cells:2040:2294:Cells:1530:1784, keys_and_masks:[KeyAndMask:0x2100L:0xffffff00] 
+edge:Cells:2040:2294:Cells:0:254, keys_and_masks:[KeyAndMask:0x2100L:0xffffff00] 
+edge:Cells:2040:2294:Cells:2295:2549, keys_and_masks:[KeyAndMask:0x2100L:0xffffff00] 
+edge:Cells:2040:2294:Cells:3060:3314, keys_and_masks:[KeyAndMask:0x2100L:0xffffff00] 
+edge:Cells:2040:2294:Cells:255:509, keys_and_masks:[KeyAndMask:0x2100L:0xffffff00] 
+edge:Cells:2040:2294:Cells:1020:1274, keys_and_masks:[KeyAndMask:0x2100L:0xffffff00] 
+edge:Cells:2040:2294:Cells:1785:2039, keys_and_masks:[KeyAndMask:0x2100L:0xffffff00] 
+edge:Cells:2040:2294:Cells:2550:2804, keys_and_masks:[KeyAndMask:0x2100L:0xffffff00] 
+edge:Cells:2040:2294:Cells:3315:3569, keys_and_masks:[KeyAndMask:0x2100L:0xffffff00] 
+
+
+Vertex: Cells:510:764 
+edge:SimpleMachineEdge(pre_vertex=Cells:510:764, post_vertex=LiveSpikeReceiver:0:0, traffic_type=EdgeTrafficType.MULTICAST, label=None, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1b00L:0xffffff00] 
+edge:Cells:510:764:Cells:510:764, keys_and_masks:[KeyAndMask:0x1b00L:0xffffff00] 
+edge:Cells:510:764:Cells:1275:1529, keys_and_masks:[KeyAndMask:0x1b00L:0xffffff00] 
+edge:Cells:510:764:Cells:2040:2294, keys_and_masks:[KeyAndMask:0x1b00L:0xffffff00] 
+edge:Cells:510:764:Cells:2805:3059, keys_and_masks:[KeyAndMask:0x1b00L:0xffffff00] 
+edge:Cells:510:764:Cells:3570:3644, keys_and_masks:[KeyAndMask:0x1b00L:0xffffff00] 
+edge:Cells:510:764:Cells:765:1019, keys_and_masks:[KeyAndMask:0x1b00L:0xffffff00] 
+edge:Cells:510:764:Cells:1530:1784, keys_and_masks:[KeyAndMask:0x1b00L:0xffffff00] 
+edge:Cells:510:764:Cells:0:254, keys_and_masks:[KeyAndMask:0x1b00L:0xffffff00] 
+edge:Cells:510:764:Cells:2295:2549, keys_and_masks:[KeyAndMask:0x1b00L:0xffffff00] 
+edge:Cells:510:764:Cells:3060:3314, keys_and_masks:[KeyAndMask:0x1b00L:0xffffff00] 
+edge:Cells:510:764:Cells:255:509, keys_and_masks:[KeyAndMask:0x1b00L:0xffffff00] 
+edge:Cells:510:764:Cells:1020:1274, keys_and_masks:[KeyAndMask:0x1b00L:0xffffff00] 
+edge:Cells:510:764:Cells:1785:2039, keys_and_masks:[KeyAndMask:0x1b00L:0xffffff00] 
+edge:Cells:510:764:Cells:2550:2804, keys_and_masks:[KeyAndMask:0x1b00L:0xffffff00] 
+edge:Cells:510:764:Cells:3315:3569, keys_and_masks:[KeyAndMask:0x1b00L:0xffffff00] 
+
+
+Vertex: Noise:2000:2499 
+edge:Noise:2000:2499:Cells:2040:2294, keys_and_masks:[KeyAndMask:0x1200L:0xfffffe00] 
+edge:Noise:2000:2499:Cells:2295:2549, keys_and_masks:[KeyAndMask:0x1200L:0xfffffe00] 
+edge:Noise:2000:2499:Cells:1785:2039, keys_and_masks:[KeyAndMask:0x1200L:0xfffffe00] 
+
+
+Vertex: Cells:1275:1529 
+edge:SimpleMachineEdge(pre_vertex=Cells:1275:1529, post_vertex=LiveSpikeReceiver:0:0, traffic_type=EdgeTrafficType.MULTICAST, label=None, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1e00L:0xffffff00] 
+edge:Cells:1275:1529:Cells:510:764, keys_and_masks:[KeyAndMask:0x1e00L:0xffffff00] 
+edge:Cells:1275:1529:Cells:1275:1529, keys_and_masks:[KeyAndMask:0x1e00L:0xffffff00] 
+edge:Cells:1275:1529:Cells:2040:2294, keys_and_masks:[KeyAndMask:0x1e00L:0xffffff00] 
+edge:Cells:1275:1529:Cells:2805:3059, keys_and_masks:[KeyAndMask:0x1e00L:0xffffff00] 
+edge:Cells:1275:1529:Cells:765:1019, keys_and_masks:[KeyAndMask:0x1e00L:0xffffff00] 
+edge:Cells:1275:1529:Cells:1530:1784, keys_and_masks:[KeyAndMask:0x1e00L:0xffffff00] 
+edge:Cells:1275:1529:Cells:0:254, keys_and_masks:[KeyAndMask:0x1e00L:0xffffff00] 
+edge:Cells:1275:1529:Cells:2295:2549, keys_and_masks:[KeyAndMask:0x1e00L:0xffffff00] 
+edge:Cells:1275:1529:Cells:3060:3314, keys_and_masks:[KeyAndMask:0x1e00L:0xffffff00] 
+edge:Cells:1275:1529:Cells:255:509, keys_and_masks:[KeyAndMask:0x1e00L:0xffffff00] 
+edge:Cells:1275:1529:Cells:1020:1274, keys_and_masks:[KeyAndMask:0x1e00L:0xffffff00] 
+edge:Cells:1275:1529:Cells:1785:2039, keys_and_masks:[KeyAndMask:0x1e00L:0xffffff00] 
+edge:Cells:1275:1529:Cells:2550:2804, keys_and_masks:[KeyAndMask:0x1e00L:0xffffff00] 
+edge:Cells:1275:1529:Cells:3315:3569, keys_and_masks:[KeyAndMask:0x1e00L:0xffffff00] 
+
+
+Vertex: Noise:3500:3644 
+edge:Noise:3500:3644:Cells:3570:3644, keys_and_masks:[KeyAndMask:0x1800L:0xffffff00] 
+edge:Noise:3500:3644:Cells:3315:3569, keys_and_masks:[KeyAndMask:0x1800L:0xffffff00] 
+
+
+Vertex: Stim:1500:1999 
+edge:Stim:1500:1999:Cells:2805:3059, keys_and_masks:[KeyAndMask:0x600L:0xfffffe00] 
+edge:Stim:1500:1999:Cells:2295:2549, keys_and_masks:[KeyAndMask:0x600L:0xfffffe00] 
+edge:Stim:1500:1999:Cells:2550:2804, keys_and_masks:[KeyAndMask:0x600L:0xfffffe00] 
+
+
+Vertex: Noise:1500:1999 
+edge:Noise:1500:1999:Cells:1275:1529, keys_and_masks:[KeyAndMask:0x1000L:0xfffffe00] 
+edge:Noise:1500:1999:Cells:1530:1784, keys_and_masks:[KeyAndMask:0x1000L:0xfffffe00] 
+edge:Noise:1500:1999:Cells:1785:2039, keys_and_masks:[KeyAndMask:0x1000L:0xfffffe00] 
+
+
+Vertex: Cells:2550:2804 
+edge:SimpleMachineEdge(pre_vertex=Cells:2550:2804, post_vertex=LiveSpikeReceiver:0:0, traffic_type=EdgeTrafficType.MULTICAST, label=None, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2300L:0xffffff00] 
+edge:Cells:2550:2804:Cells:510:764, keys_and_masks:[KeyAndMask:0x2300L:0xffffff00] 
+edge:Cells:2550:2804:Cells:1275:1529, keys_and_masks:[KeyAndMask:0x2300L:0xffffff00] 
+edge:Cells:2550:2804:Cells:2040:2294, keys_and_masks:[KeyAndMask:0x2300L:0xffffff00] 
+edge:Cells:2550:2804:Cells:2805:3059, keys_and_masks:[KeyAndMask:0x2300L:0xffffff00] 
+edge:Cells:2550:2804:Cells:3570:3644, keys_and_masks:[KeyAndMask:0x2300L:0xffffff00] 
+edge:Cells:2550:2804:Cells:765:1019, keys_and_masks:[KeyAndMask:0x2300L:0xffffff00] 
+edge:Cells:2550:2804:Cells:1530:1784, keys_and_masks:[KeyAndMask:0x2300L:0xffffff00] 
+edge:Cells:2550:2804:Cells:0:254, keys_and_masks:[KeyAndMask:0x2300L:0xffffff00] 
+edge:Cells:2550:2804:Cells:2295:2549, keys_and_masks:[KeyAndMask:0x2300L:0xffffff00] 
+edge:Cells:2550:2804:Cells:3060:3314, keys_and_masks:[KeyAndMask:0x2300L:0xffffff00] 
+edge:Cells:2550:2804:Cells:255:509, keys_and_masks:[KeyAndMask:0x2300L:0xffffff00] 
+edge:Cells:2550:2804:Cells:1020:1274, keys_and_masks:[KeyAndMask:0x2300L:0xffffff00] 
+edge:Cells:2550:2804:Cells:1785:2039, keys_and_masks:[KeyAndMask:0x2300L:0xffffff00] 
+edge:Cells:2550:2804:Cells:2550:2804, keys_and_masks:[KeyAndMask:0x2300L:0xffffff00] 
+edge:Cells:2550:2804:Cells:3315:3569, keys_and_masks:[KeyAndMask:0x2300L:0xffffff00] 
+
+
+Vertex: Cells:1020:1274 
+edge:SimpleMachineEdge(pre_vertex=Cells:1020:1274, post_vertex=LiveSpikeReceiver:0:0, traffic_type=EdgeTrafficType.MULTICAST, label=None, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1d00L:0xffffff00] 
+edge:Cells:1020:1274:Cells:510:764, keys_and_masks:[KeyAndMask:0x1d00L:0xffffff00] 
+edge:Cells:1020:1274:Cells:1275:1529, keys_and_masks:[KeyAndMask:0x1d00L:0xffffff00] 
+edge:Cells:1020:1274:Cells:2040:2294, keys_and_masks:[KeyAndMask:0x1d00L:0xffffff00] 
+edge:Cells:1020:1274:Cells:2805:3059, keys_and_masks:[KeyAndMask:0x1d00L:0xffffff00] 
+edge:Cells:1020:1274:Cells:3570:3644, keys_and_masks:[KeyAndMask:0x1d00L:0xffffff00] 
+edge:Cells:1020:1274:Cells:765:1019, keys_and_masks:[KeyAndMask:0x1d00L:0xffffff00] 
+edge:Cells:1020:1274:Cells:1530:1784, keys_and_masks:[KeyAndMask:0x1d00L:0xffffff00] 
+edge:Cells:1020:1274:Cells:0:254, keys_and_masks:[KeyAndMask:0x1d00L:0xffffff00] 
+edge:Cells:1020:1274:Cells:2295:2549, keys_and_masks:[KeyAndMask:0x1d00L:0xffffff00] 
+edge:Cells:1020:1274:Cells:3060:3314, keys_and_masks:[KeyAndMask:0x1d00L:0xffffff00] 
+edge:Cells:1020:1274:Cells:255:509, keys_and_masks:[KeyAndMask:0x1d00L:0xffffff00] 
+edge:Cells:1020:1274:Cells:1020:1274, keys_and_masks:[KeyAndMask:0x1d00L:0xffffff00] 
+edge:Cells:1020:1274:Cells:1785:2039, keys_and_masks:[KeyAndMask:0x1d00L:0xffffff00] 
+edge:Cells:1020:1274:Cells:2550:2804, keys_and_masks:[KeyAndMask:0x1d00L:0xffffff00] 
+edge:Cells:1020:1274:Cells:3315:3569, keys_and_masks:[KeyAndMask:0x1d00L:0xffffff00] 
+
+
+Vertex: Noise:3000:3499 
+edge:Noise:3000:3499:Cells:2805:3059, keys_and_masks:[KeyAndMask:0x1600L:0xfffffe00] 
+edge:Noise:3000:3499:Cells:3060:3314, keys_and_masks:[KeyAndMask:0x1600L:0xfffffe00] 
+edge:Noise:3000:3499:Cells:3315:3569, keys_and_masks:[KeyAndMask:0x1600L:0xfffffe00] 
+
+
+Vertex: Noise:1000:1499 
+edge:Noise:1000:1499:Cells:1275:1529, keys_and_masks:[KeyAndMask:0xe00L:0xfffffe00] 
+edge:Noise:1000:1499:Cells:765:1019, keys_and_masks:[KeyAndMask:0xe00L:0xfffffe00] 
+edge:Noise:1000:1499:Cells:1020:1274, keys_and_masks:[KeyAndMask:0xe00L:0xfffffe00] 
+
+
+Vertex: Cells:3315:3569 
+edge:SimpleMachineEdge(pre_vertex=Cells:3315:3569, post_vertex=LiveSpikeReceiver:0:0, traffic_type=EdgeTrafficType.MULTICAST, label=None, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2600L:0xffffff00] 
+edge:Cells:3315:3569:Cells:510:764, keys_and_masks:[KeyAndMask:0x2600L:0xffffff00] 
+edge:Cells:3315:3569:Cells:1275:1529, keys_and_masks:[KeyAndMask:0x2600L:0xffffff00] 
+edge:Cells:3315:3569:Cells:2040:2294, keys_and_masks:[KeyAndMask:0x2600L:0xffffff00] 
+edge:Cells:3315:3569:Cells:2805:3059, keys_and_masks:[KeyAndMask:0x2600L:0xffffff00] 
+edge:Cells:3315:3569:Cells:3570:3644, keys_and_masks:[KeyAndMask:0x2600L:0xffffff00] 
+edge:Cells:3315:3569:Cells:765:1019, keys_and_masks:[KeyAndMask:0x2600L:0xffffff00] 
+edge:Cells:3315:3569:Cells:1530:1784, keys_and_masks:[KeyAndMask:0x2600L:0xffffff00] 
+edge:Cells:3315:3569:Cells:0:254, keys_and_masks:[KeyAndMask:0x2600L:0xffffff00] 
+edge:Cells:3315:3569:Cells:2295:2549, keys_and_masks:[KeyAndMask:0x2600L:0xffffff00] 
+edge:Cells:3315:3569:Cells:3060:3314, keys_and_masks:[KeyAndMask:0x2600L:0xffffff00] 
+edge:Cells:3315:3569:Cells:255:509, keys_and_masks:[KeyAndMask:0x2600L:0xffffff00] 
+edge:Cells:3315:3569:Cells:1020:1274, keys_and_masks:[KeyAndMask:0x2600L:0xffffff00] 
+edge:Cells:3315:3569:Cells:1785:2039, keys_and_masks:[KeyAndMask:0x2600L:0xffffff00] 
+edge:Cells:3315:3569:Cells:2550:2804, keys_and_masks:[KeyAndMask:0x2600L:0xffffff00] 
+edge:Cells:3315:3569:Cells:3315:3569, keys_and_masks:[KeyAndMask:0x2600L:0xffffff00] 
+
+
+Vertex: Cells:1785:2039 
+edge:SimpleMachineEdge(pre_vertex=Cells:1785:2039, post_vertex=LiveSpikeReceiver:0:0, traffic_type=EdgeTrafficType.MULTICAST, label=None, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2000L:0xffffff00] 
+edge:Cells:1785:2039:Cells:510:764, keys_and_masks:[KeyAndMask:0x2000L:0xffffff00] 
+edge:Cells:1785:2039:Cells:1275:1529, keys_and_masks:[KeyAndMask:0x2000L:0xffffff00] 
+edge:Cells:1785:2039:Cells:2040:2294, keys_and_masks:[KeyAndMask:0x2000L:0xffffff00] 
+edge:Cells:1785:2039:Cells:2805:3059, keys_and_masks:[KeyAndMask:0x2000L:0xffffff00] 
+edge:Cells:1785:2039:Cells:3570:3644, keys_and_masks:[KeyAndMask:0x2000L:0xffffff00] 
+edge:Cells:1785:2039:Cells:765:1019, keys_and_masks:[KeyAndMask:0x2000L:0xffffff00] 
+edge:Cells:1785:2039:Cells:1530:1784, keys_and_masks:[KeyAndMask:0x2000L:0xffffff00] 
+edge:Cells:1785:2039:Cells:0:254, keys_and_masks:[KeyAndMask:0x2000L:0xffffff00] 
+edge:Cells:1785:2039:Cells:2295:2549, keys_and_masks:[KeyAndMask:0x2000L:0xffffff00] 
+edge:Cells:1785:2039:Cells:3060:3314, keys_and_masks:[KeyAndMask:0x2000L:0xffffff00] 
+edge:Cells:1785:2039:Cells:255:509, keys_and_masks:[KeyAndMask:0x2000L:0xffffff00] 
+edge:Cells:1785:2039:Cells:1020:1274, keys_and_masks:[KeyAndMask:0x2000L:0xffffff00] 
+edge:Cells:1785:2039:Cells:1785:2039, keys_and_masks:[KeyAndMask:0x2000L:0xffffff00] 
+edge:Cells:1785:2039:Cells:2550:2804, keys_and_masks:[KeyAndMask:0x2000L:0xffffff00] 
+edge:Cells:1785:2039:Cells:3315:3569, keys_and_masks:[KeyAndMask:0x2000L:0xffffff00] 
+
+
+Vertex: Cells:2295:2549 
+edge:SimpleMachineEdge(pre_vertex=Cells:2295:2549, post_vertex=LiveSpikeReceiver:0:0, traffic_type=EdgeTrafficType.MULTICAST, label=None, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2200L:0xffffff00] 
+edge:Cells:2295:2549:Cells:510:764, keys_and_masks:[KeyAndMask:0x2200L:0xffffff00] 
+edge:Cells:2295:2549:Cells:1275:1529, keys_and_masks:[KeyAndMask:0x2200L:0xffffff00] 
+edge:Cells:2295:2549:Cells:2040:2294, keys_and_masks:[KeyAndMask:0x2200L:0xffffff00] 
+edge:Cells:2295:2549:Cells:2805:3059, keys_and_masks:[KeyAndMask:0x2200L:0xffffff00] 
+edge:Cells:2295:2549:Cells:3570:3644, keys_and_masks:[KeyAndMask:0x2200L:0xffffff00] 
+edge:Cells:2295:2549:Cells:765:1019, keys_and_masks:[KeyAndMask:0x2200L:0xffffff00] 
+edge:Cells:2295:2549:Cells:1530:1784, keys_and_masks:[KeyAndMask:0x2200L:0xffffff00] 
+edge:Cells:2295:2549:Cells:0:254, keys_and_masks:[KeyAndMask:0x2200L:0xffffff00] 
+edge:Cells:2295:2549:Cells:2295:2549, keys_and_masks:[KeyAndMask:0x2200L:0xffffff00] 
+edge:Cells:2295:2549:Cells:3060:3314, keys_and_masks:[KeyAndMask:0x2200L:0xffffff00] 
+edge:Cells:2295:2549:Cells:255:509, keys_and_masks:[KeyAndMask:0x2200L:0xffffff00] 
+edge:Cells:2295:2549:Cells:1020:1274, keys_and_masks:[KeyAndMask:0x2200L:0xffffff00] 
+edge:Cells:2295:2549:Cells:1785:2039, keys_and_masks:[KeyAndMask:0x2200L:0xffffff00] 
+edge:Cells:2295:2549:Cells:2550:2804, keys_and_masks:[KeyAndMask:0x2200L:0xffffff00] 
+edge:Cells:2295:2549:Cells:3315:3569, keys_and_masks:[KeyAndMask:0x2200L:0xffffff00] 
+
+
+Vertex: Cells:765:1019 
+edge:SimpleMachineEdge(pre_vertex=Cells:765:1019, post_vertex=LiveSpikeReceiver:0:0, traffic_type=EdgeTrafficType.MULTICAST, label=None, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1c00L:0xffffff00] 
+edge:Cells:765:1019:Cells:510:764, keys_and_masks:[KeyAndMask:0x1c00L:0xffffff00] 
+edge:Cells:765:1019:Cells:1275:1529, keys_and_masks:[KeyAndMask:0x1c00L:0xffffff00] 
+edge:Cells:765:1019:Cells:2040:2294, keys_and_masks:[KeyAndMask:0x1c00L:0xffffff00] 
+edge:Cells:765:1019:Cells:2805:3059, keys_and_masks:[KeyAndMask:0x1c00L:0xffffff00] 
+edge:Cells:765:1019:Cells:3570:3644, keys_and_masks:[KeyAndMask:0x1c00L:0xffffff00] 
+edge:Cells:765:1019:Cells:765:1019, keys_and_masks:[KeyAndMask:0x1c00L:0xffffff00] 
+edge:Cells:765:1019:Cells:1530:1784, keys_and_masks:[KeyAndMask:0x1c00L:0xffffff00] 
+edge:Cells:765:1019:Cells:0:254, keys_and_masks:[KeyAndMask:0x1c00L:0xffffff00] 
+edge:Cells:765:1019:Cells:2295:2549, keys_and_masks:[KeyAndMask:0x1c00L:0xffffff00] 
+edge:Cells:765:1019:Cells:3060:3314, keys_and_masks:[KeyAndMask:0x1c00L:0xffffff00] 
+edge:Cells:765:1019:Cells:255:509, keys_and_masks:[KeyAndMask:0x1c00L:0xffffff00] 
+edge:Cells:765:1019:Cells:1020:1274, keys_and_masks:[KeyAndMask:0x1c00L:0xffffff00] 
+edge:Cells:765:1019:Cells:1785:2039, keys_and_masks:[KeyAndMask:0x1c00L:0xffffff00] 
+edge:Cells:765:1019:Cells:2550:2804, keys_and_masks:[KeyAndMask:0x1c00L:0xffffff00] 
+edge:Cells:765:1019:Cells:3315:3569, keys_and_masks:[KeyAndMask:0x1c00L:0xffffff00] 
+
+
+Vertex: Noise:2500:2999 
+edge:Noise:2500:2999:Cells:2805:3059, keys_and_masks:[KeyAndMask:0x1400L:0xfffffe00] 
+edge:Noise:2500:2999:Cells:2295:2549, keys_and_masks:[KeyAndMask:0x1400L:0xfffffe00] 
+edge:Noise:2500:2999:Cells:2550:2804, keys_and_masks:[KeyAndMask:0x1400L:0xfffffe00] 
+
+
+Vertex: Cells:3060:3314 
+edge:SimpleMachineEdge(pre_vertex=Cells:3060:3314, post_vertex=LiveSpikeReceiver:0:0, traffic_type=EdgeTrafficType.MULTICAST, label=None, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2500L:0xffffff00] 
+edge:Cells:3060:3314:Cells:510:764, keys_and_masks:[KeyAndMask:0x2500L:0xffffff00] 
+edge:Cells:3060:3314:Cells:1275:1529, keys_and_masks:[KeyAndMask:0x2500L:0xffffff00] 
+edge:Cells:3060:3314:Cells:2040:2294, keys_and_masks:[KeyAndMask:0x2500L:0xffffff00] 
+edge:Cells:3060:3314:Cells:2805:3059, keys_and_masks:[KeyAndMask:0x2500L:0xffffff00] 
+edge:Cells:3060:3314:Cells:3570:3644, keys_and_masks:[KeyAndMask:0x2500L:0xffffff00] 
+edge:Cells:3060:3314:Cells:765:1019, keys_and_masks:[KeyAndMask:0x2500L:0xffffff00] 
+edge:Cells:3060:3314:Cells:1530:1784, keys_and_masks:[KeyAndMask:0x2500L:0xffffff00] 
+edge:Cells:3060:3314:Cells:0:254, keys_and_masks:[KeyAndMask:0x2500L:0xffffff00] 
+edge:Cells:3060:3314:Cells:2295:2549, keys_and_masks:[KeyAndMask:0x2500L:0xffffff00] 
+edge:Cells:3060:3314:Cells:3060:3314, keys_and_masks:[KeyAndMask:0x2500L:0xffffff00] 
+edge:Cells:3060:3314:Cells:255:509, keys_and_masks:[KeyAndMask:0x2500L:0xffffff00] 
+edge:Cells:3060:3314:Cells:1020:1274, keys_and_masks:[KeyAndMask:0x2500L:0xffffff00] 
+edge:Cells:3060:3314:Cells:1785:2039, keys_and_masks:[KeyAndMask:0x2500L:0xffffff00] 
+edge:Cells:3060:3314:Cells:2550:2804, keys_and_masks:[KeyAndMask:0x2500L:0xffffff00] 
+edge:Cells:3060:3314:Cells:3315:3569, keys_and_masks:[KeyAndMask:0x2500L:0xffffff00] 
+
+
+Vertex: Cells:1530:1784 
+edge:SimpleMachineEdge(pre_vertex=Cells:1530:1784, post_vertex=LiveSpikeReceiver:0:0, traffic_type=EdgeTrafficType.MULTICAST, label=None, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1f00L:0xffffff00] 
+edge:Cells:1530:1784:Cells:510:764, keys_and_masks:[KeyAndMask:0x1f00L:0xffffff00] 
+edge:Cells:1530:1784:Cells:1275:1529, keys_and_masks:[KeyAndMask:0x1f00L:0xffffff00] 
+edge:Cells:1530:1784:Cells:2040:2294, keys_and_masks:[KeyAndMask:0x1f00L:0xffffff00] 
+edge:Cells:1530:1784:Cells:2805:3059, keys_and_masks:[KeyAndMask:0x1f00L:0xffffff00] 
+edge:Cells:1530:1784:Cells:3570:3644, keys_and_masks:[KeyAndMask:0x1f00L:0xffffff00] 
+edge:Cells:1530:1784:Cells:765:1019, keys_and_masks:[KeyAndMask:0x1f00L:0xffffff00] 
+edge:Cells:1530:1784:Cells:1530:1784, keys_and_masks:[KeyAndMask:0x1f00L:0xffffff00] 
+edge:Cells:1530:1784:Cells:0:254, keys_and_masks:[KeyAndMask:0x1f00L:0xffffff00] 
+edge:Cells:1530:1784:Cells:2295:2549, keys_and_masks:[KeyAndMask:0x1f00L:0xffffff00] 
+edge:Cells:1530:1784:Cells:3060:3314, keys_and_masks:[KeyAndMask:0x1f00L:0xffffff00] 
+edge:Cells:1530:1784:Cells:255:509, keys_and_masks:[KeyAndMask:0x1f00L:0xffffff00] 
+edge:Cells:1530:1784:Cells:1020:1274, keys_and_masks:[KeyAndMask:0x1f00L:0xffffff00] 
+edge:Cells:1530:1784:Cells:1785:2039, keys_and_masks:[KeyAndMask:0x1f00L:0xffffff00] 
+edge:Cells:1530:1784:Cells:2550:2804, keys_and_masks:[KeyAndMask:0x1f00L:0xffffff00] 
+edge:Cells:1530:1784:Cells:3315:3569, keys_and_masks:[KeyAndMask:0x1f00L:0xffffff00] 
+
+
+Vertex: Stim:0:499 
+edge:Stim:0:499:Cells:510:764, keys_and_masks:[KeyAndMask:0x0L:0xfffffe00] 
+edge:Stim:0:499:Cells:0:254, keys_and_masks:[KeyAndMask:0x0L:0xfffffe00] 
+edge:Stim:0:499:Cells:255:509, keys_and_masks:[KeyAndMask:0x0L:0xfffffe00] 
+
+
+Vertex: Noise:0:499 
+edge:Noise:0:499:Cells:0:254, keys_and_masks:[KeyAndMask:0xa00L:0xfffffe00] 
+edge:Noise:0:499:Cells:255:509, keys_and_masks:[KeyAndMask:0xa00L:0xfffffe00] 
+
+
+Vertex: Cells:0:254 
+edge:SimpleMachineEdge(pre_vertex=Cells:0:254, post_vertex=LiveSpikeReceiver:0:0, traffic_type=EdgeTrafficType.MULTICAST, label=None, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1900L:0xffffff00] 
+edge:Cells:0:254:Cells:510:764, keys_and_masks:[KeyAndMask:0x1900L:0xffffff00] 
+edge:Cells:0:254:Cells:1275:1529, keys_and_masks:[KeyAndMask:0x1900L:0xffffff00] 
+edge:Cells:0:254:Cells:2040:2294, keys_and_masks:[KeyAndMask:0x1900L:0xffffff00] 
+edge:Cells:0:254:Cells:2805:3059, keys_and_masks:[KeyAndMask:0x1900L:0xffffff00] 
+edge:Cells:0:254:Cells:765:1019, keys_and_masks:[KeyAndMask:0x1900L:0xffffff00] 
+edge:Cells:0:254:Cells:1530:1784, keys_and_masks:[KeyAndMask:0x1900L:0xffffff00] 
+edge:Cells:0:254:Cells:0:254, keys_and_masks:[KeyAndMask:0x1900L:0xffffff00] 
+edge:Cells:0:254:Cells:2295:2549, keys_and_masks:[KeyAndMask:0x1900L:0xffffff00] 
+edge:Cells:0:254:Cells:3060:3314, keys_and_masks:[KeyAndMask:0x1900L:0xffffff00] 
+edge:Cells:0:254:Cells:255:509, keys_and_masks:[KeyAndMask:0x1900L:0xffffff00] 
+edge:Cells:0:254:Cells:1020:1274, keys_and_masks:[KeyAndMask:0x1900L:0xffffff00] 
+edge:Cells:0:254:Cells:1785:2039, keys_and_masks:[KeyAndMask:0x1900L:0xffffff00] 
+edge:Cells:0:254:Cells:2550:2804, keys_and_masks:[KeyAndMask:0x1900L:0xffffff00] 
+edge:Cells:0:254:Cells:3315:3569, keys_and_masks:[KeyAndMask:0x1900L:0xffffff00] 
+
+
+Vertex: Cells:255:509 
+edge:SimpleMachineEdge(pre_vertex=Cells:255:509, post_vertex=LiveSpikeReceiver:0:0, traffic_type=EdgeTrafficType.MULTICAST, label=None, traffic_weight=1), keys_and_masks:[KeyAndMask:0x1a00L:0xffffff00] 
+edge:Cells:255:509:Cells:510:764, keys_and_masks:[KeyAndMask:0x1a00L:0xffffff00] 
+edge:Cells:255:509:Cells:1275:1529, keys_and_masks:[KeyAndMask:0x1a00L:0xffffff00] 
+edge:Cells:255:509:Cells:2040:2294, keys_and_masks:[KeyAndMask:0x1a00L:0xffffff00] 
+edge:Cells:255:509:Cells:2805:3059, keys_and_masks:[KeyAndMask:0x1a00L:0xffffff00] 
+edge:Cells:255:509:Cells:3570:3644, keys_and_masks:[KeyAndMask:0x1a00L:0xffffff00] 
+edge:Cells:255:509:Cells:765:1019, keys_and_masks:[KeyAndMask:0x1a00L:0xffffff00] 
+edge:Cells:255:509:Cells:1530:1784, keys_and_masks:[KeyAndMask:0x1a00L:0xffffff00] 
+edge:Cells:255:509:Cells:0:254, keys_and_masks:[KeyAndMask:0x1a00L:0xffffff00] 
+edge:Cells:255:509:Cells:2295:2549, keys_and_masks:[KeyAndMask:0x1a00L:0xffffff00] 
+edge:Cells:255:509:Cells:3060:3314, keys_and_masks:[KeyAndMask:0x1a00L:0xffffff00] 
+edge:Cells:255:509:Cells:255:509, keys_and_masks:[KeyAndMask:0x1a00L:0xffffff00] 
+edge:Cells:255:509:Cells:1020:1274, keys_and_masks:[KeyAndMask:0x1a00L:0xffffff00] 
+edge:Cells:255:509:Cells:1785:2039, keys_and_masks:[KeyAndMask:0x1a00L:0xffffff00] 
+edge:Cells:255:509:Cells:2550:2804, keys_and_masks:[KeyAndMask:0x1a00L:0xffffff00] 
+edge:Cells:255:509:Cells:3315:3569, keys_and_masks:[KeyAndMask:0x1a00L:0xffffff00] 
+
+
+Vertex: Cells:2805:3059 
+edge:SimpleMachineEdge(pre_vertex=Cells:2805:3059, post_vertex=LiveSpikeReceiver:0:0, traffic_type=EdgeTrafficType.MULTICAST, label=None, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2400L:0xffffff00] 
+edge:Cells:2805:3059:Cells:510:764, keys_and_masks:[KeyAndMask:0x2400L:0xffffff00] 
+edge:Cells:2805:3059:Cells:1275:1529, keys_and_masks:[KeyAndMask:0x2400L:0xffffff00] 
+edge:Cells:2805:3059:Cells:2040:2294, keys_and_masks:[KeyAndMask:0x2400L:0xffffff00] 
+edge:Cells:2805:3059:Cells:2805:3059, keys_and_masks:[KeyAndMask:0x2400L:0xffffff00] 
+edge:Cells:2805:3059:Cells:3570:3644, keys_and_masks:[KeyAndMask:0x2400L:0xffffff00] 
+edge:Cells:2805:3059:Cells:765:1019, keys_and_masks:[KeyAndMask:0x2400L:0xffffff00] 
+edge:Cells:2805:3059:Cells:1530:1784, keys_and_masks:[KeyAndMask:0x2400L:0xffffff00] 
+edge:Cells:2805:3059:Cells:0:254, keys_and_masks:[KeyAndMask:0x2400L:0xffffff00] 
+edge:Cells:2805:3059:Cells:2295:2549, keys_and_masks:[KeyAndMask:0x2400L:0xffffff00] 
+edge:Cells:2805:3059:Cells:3060:3314, keys_and_masks:[KeyAndMask:0x2400L:0xffffff00] 
+edge:Cells:2805:3059:Cells:255:509, keys_and_masks:[KeyAndMask:0x2400L:0xffffff00] 
+edge:Cells:2805:3059:Cells:1020:1274, keys_and_masks:[KeyAndMask:0x2400L:0xffffff00] 
+edge:Cells:2805:3059:Cells:1785:2039, keys_and_masks:[KeyAndMask:0x2400L:0xffffff00] 
+edge:Cells:2805:3059:Cells:2550:2804, keys_and_masks:[KeyAndMask:0x2400L:0xffffff00] 
+edge:Cells:2805:3059:Cells:3315:3569, keys_and_masks:[KeyAndMask:0x2400L:0xffffff00] 
+
+
+Vertex: Cells:3570:3644 
+edge:SimpleMachineEdge(pre_vertex=Cells:3570:3644, post_vertex=LiveSpikeReceiver:0:0, traffic_type=EdgeTrafficType.MULTICAST, label=None, traffic_weight=1), keys_and_masks:[KeyAndMask:0x2700L:0xffffff80] 
+edge:Cells:3570:3644:Cells:510:764, keys_and_masks:[KeyAndMask:0x2700L:0xffffff80] 
+edge:Cells:3570:3644:Cells:2805:3059, keys_and_masks:[KeyAndMask:0x2700L:0xffffff80] 
+edge:Cells:3570:3644:Cells:3570:3644, keys_and_masks:[KeyAndMask:0x2700L:0xffffff80] 
+edge:Cells:3570:3644:Cells:765:1019, keys_and_masks:[KeyAndMask:0x2700L:0xffffff80] 
+edge:Cells:3570:3644:Cells:1530:1784, keys_and_masks:[KeyAndMask:0x2700L:0xffffff80] 
+edge:Cells:3570:3644:Cells:2295:2549, keys_and_masks:[KeyAndMask:0x2700L:0xffffff80] 
+edge:Cells:3570:3644:Cells:3060:3314, keys_and_masks:[KeyAndMask:0x2700L:0xffffff80] 
+edge:Cells:3570:3644:Cells:255:509, keys_and_masks:[KeyAndMask:0x2700L:0xffffff80] 
+edge:Cells:3570:3644:Cells:1020:1274, keys_and_masks:[KeyAndMask:0x2700L:0xffffff80] 
+edge:Cells:3570:3644:Cells:1785:2039, keys_and_masks:[KeyAndMask:0x2700L:0xffffff80] 
+edge:Cells:3570:3644:Cells:2550:2804, keys_and_masks:[KeyAndMask:0x2700L:0xffffff80] 
+edge:Cells:3570:3644:Cells:3315:3569, keys_and_masks:[KeyAndMask:0x2700L:0xffffff80] 
+
+

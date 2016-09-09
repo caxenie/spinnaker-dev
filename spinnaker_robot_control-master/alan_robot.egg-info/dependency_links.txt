@@ -1,0 +1,2 @@
+https://github.com/nengo/nengo/tarball/23107fe#egg=nengo-2.1.0.dev0
+https://github.com/pabogdan/nengo_spinnaker/tarball/master#egg=nengo-spinnaker-0.2.4

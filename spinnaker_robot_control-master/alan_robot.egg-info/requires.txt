@@ -1,0 +1,4 @@
+nengo==2.1.0.dev0
+rig>=0.5.3, <1.0.0
+bitarray>=0.8.1, <1.0.0
+nengo-spinnaker==0.2.4

@@ -1,0 +1,131 @@
+        Placement Information by Vertex
+        ===============================
+
+Generated: Mo 05 Sep 2016 10:47:59 BST for target machine '192.168.240.253'
+
+**** Vertex: 'chain_0'
+Model: IFCurrExp
+Pop size: 200
+Machine Vertices: 
+  Slice 0:199 (200 atoms) 
+
+**** Vertex: 'chain_0_delayed'
+Model: DelayExtensionVertex
+Pop size: 200
+Machine Vertices: 
+  Slice 0:199 (200 atoms) 
+
+**** Vertex: 'chain_1'
+Model: IFCurrExp
+Pop size: 200
+Machine Vertices: 
+  Slice 0:199 (200 atoms) 
+
+**** Vertex: 'chain_1_delayed'
+Model: DelayExtensionVertex
+Pop size: 200
+Machine Vertices: 
+  Slice 0:199 (200 atoms) 
+
+**** Vertex: 'chain_2'
+Model: IFCurrExp
+Pop size: 200
+Machine Vertices: 
+  Slice 0:199 (200 atoms) 
+
+**** Vertex: 'chain_2_delayed'
+Model: DelayExtensionVertex
+Pop size: 200
+Machine Vertices: 
+  Slice 0:199 (200 atoms) 
+
+**** Vertex: 'chain_3'
+Model: IFCurrExp
+Pop size: 200
+Machine Vertices: 
+  Slice 0:199 (200 atoms) 
+
+**** Vertex: 'chain_3_delayed'
+Model: DelayExtensionVertex
+Pop size: 200
+Machine Vertices: 
+  Slice 0:199 (200 atoms) 
+
+**** Vertex: 'chain_4'
+Model: IFCurrExp
+Pop size: 200
+Machine Vertices: 
+  Slice 0:199 (200 atoms) 
+
+**** Vertex: 'chain_4_delayed'
+Model: DelayExtensionVertex
+Pop size: 200
+Machine Vertices: 
+  Slice 0:199 (200 atoms) 
+
+**** Vertex: 'chain_5'
+Model: IFCurrExp
+Pop size: 200
+Machine Vertices: 
+  Slice 0:199 (200 atoms) 
+
+**** Vertex: 'chain_5_delayed'
+Model: DelayExtensionVertex
+Pop size: 200
+Machine Vertices: 
+  Slice 0:199 (200 atoms) 
+
+**** Vertex: 'chain_6'
+Model: IFCurrExp
+Pop size: 200
+Machine Vertices: 
+  Slice 0:199 (200 atoms) 
+
+**** Vertex: 'chain_6_delayed'
+Model: DelayExtensionVertex
+Pop size: 200
+Machine Vertices: 
+  Slice 0:199 (200 atoms) 
+
+**** Vertex: 'chain_7'
+Model: IFCurrExp
+Pop size: 200
+Machine Vertices: 
+  Slice 0:199 (200 atoms) 
+
+**** Vertex: 'chain_7_delayed'
+Model: DelayExtensionVertex
+Pop size: 200
+Machine Vertices: 
+  Slice 0:199 (200 atoms) 
+
+**** Vertex: 'chain_8'
+Model: IFCurrExp
+Pop size: 200
+Machine Vertices: 
+  Slice 0:199 (200 atoms) 
+
+**** Vertex: 'chain_8_delayed'
+Model: DelayExtensionVertex
+Pop size: 200
+Machine Vertices: 
+  Slice 0:199 (200 atoms) 
+
+**** Vertex: 'chain_9'
+Model: IFCurrExp
+Pop size: 200
+Machine Vertices: 
+  Slice 0:199 (200 atoms) 
+
+**** Vertex: 'chain_9_delayed'
+Model: DelayExtensionVertex
+Pop size: 200
+Machine Vertices: 
+  Slice 0:199 (200 atoms) 
+
+**** Vertex: 'stimulus'
+Model: SpikeSourceArray
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) 
+

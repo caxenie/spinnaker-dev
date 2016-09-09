@@ -1,0 +1,251 @@
+        Placement Information by Vertex
+        ===============================
+
+Generated: Mo 05 Sep 2016 10:46:59 BST for target machine '192.168.240.253'
+
+**** Vertex: 'chain_0'
+Model: IFCurrExp
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_0_delayed'
+Model: DelayExtensionVertex
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_1'
+Model: IFCurrExp
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_10'
+Model: IFCurrExp
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_10_delayed'
+Model: DelayExtensionVertex
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_11'
+Model: IFCurrExp
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_11_delayed'
+Model: DelayExtensionVertex
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_12'
+Model: IFCurrExp
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_12_delayed'
+Model: DelayExtensionVertex
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_13'
+Model: IFCurrExp
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_13_delayed'
+Model: DelayExtensionVertex
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_14'
+Model: IFCurrExp
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_14_delayed'
+Model: DelayExtensionVertex
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_15'
+Model: IFCurrExp
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_15_delayed'
+Model: DelayExtensionVertex
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_16'
+Model: IFCurrExp
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_16_delayed'
+Model: DelayExtensionVertex
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_17'
+Model: IFCurrExp
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_17_delayed'
+Model: DelayExtensionVertex
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_18'
+Model: IFCurrExp
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_18_delayed'
+Model: DelayExtensionVertex
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_19'
+Model: IFCurrExp
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_19_delayed'
+Model: DelayExtensionVertex
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_1_delayed'
+Model: DelayExtensionVertex
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_2'
+Model: IFCurrExp
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_2_delayed'
+Model: DelayExtensionVertex
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_3'
+Model: IFCurrExp
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_3_delayed'
+Model: DelayExtensionVertex
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_4'
+Model: IFCurrExp
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_4_delayed'
+Model: DelayExtensionVertex
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_5'
+Model: IFCurrExp
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_5_delayed'
+Model: DelayExtensionVertex
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_6'
+Model: IFCurrExp
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_6_delayed'
+Model: DelayExtensionVertex
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_7'
+Model: IFCurrExp
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_7_delayed'
+Model: DelayExtensionVertex
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_8'
+Model: IFCurrExp
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_8_delayed'
+Model: DelayExtensionVertex
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_9'
+Model: IFCurrExp
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'chain_9_delayed'
+Model: DelayExtensionVertex
+Pop size: 50
+Machine Vertices: 
+  Slice 0:49 (50 atoms) 
+
+**** Vertex: 'stimulus'
+Model: SpikeSourceArray
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) 
+

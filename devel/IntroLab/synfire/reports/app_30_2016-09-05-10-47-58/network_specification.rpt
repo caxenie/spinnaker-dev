@@ -1,0 +1,204 @@
+        Network Specification
+ =====================
+
+Generated: Mo 05 Sep 2016 10:47:59 BST for target machine '192.168.240.253'
+
+*** Vertices:
+Vertex stimulus, size: 1
+Model: SpikeSourceArray
+constraint: PartitionerMaximumSizeConstraint(size=9223372036854775807)
+
+Vertex chain_0, size: 200
+Model: IFCurrExp
+constraint: PartitionerMaximumSizeConstraint(size=255)
+constraint: PartitionerSameSizeAsVertexConstraint(vertex=chain_0_delayed)
+
+Vertex chain_1, size: 200
+Model: IFCurrExp
+constraint: PartitionerMaximumSizeConstraint(size=255)
+constraint: PartitionerSameSizeAsVertexConstraint(vertex=chain_1_delayed)
+
+Vertex chain_2, size: 200
+Model: IFCurrExp
+constraint: PartitionerMaximumSizeConstraint(size=255)
+constraint: PartitionerSameSizeAsVertexConstraint(vertex=chain_2_delayed)
+
+Vertex chain_3, size: 200
+Model: IFCurrExp
+constraint: PartitionerMaximumSizeConstraint(size=255)
+constraint: PartitionerSameSizeAsVertexConstraint(vertex=chain_3_delayed)
+
+Vertex chain_4, size: 200
+Model: IFCurrExp
+constraint: PartitionerSameSizeAsVertexConstraint(vertex=chain_4_delayed)
+constraint: PartitionerMaximumSizeConstraint(size=255)
+
+Vertex chain_5, size: 200
+Model: IFCurrExp
+constraint: PartitionerMaximumSizeConstraint(size=255)
+constraint: PartitionerSameSizeAsVertexConstraint(vertex=chain_5_delayed)
+
+Vertex chain_6, size: 200
+Model: IFCurrExp
+constraint: PartitionerMaximumSizeConstraint(size=255)
+constraint: PartitionerSameSizeAsVertexConstraint(vertex=chain_6_delayed)
+
+Vertex chain_7, size: 200
+Model: IFCurrExp
+constraint: PartitionerMaximumSizeConstraint(size=255)
+constraint: PartitionerSameSizeAsVertexConstraint(vertex=chain_7_delayed)
+
+Vertex chain_8, size: 200
+Model: IFCurrExp
+constraint: PartitionerMaximumSizeConstraint(size=255)
+constraint: PartitionerSameSizeAsVertexConstraint(vertex=chain_8_delayed)
+
+Vertex chain_9, size: 200
+Model: IFCurrExp
+constraint: PartitionerMaximumSizeConstraint(size=255)
+constraint: PartitionerSameSizeAsVertexConstraint(vertex=chain_9_delayed)
+
+Vertex chain_0_delayed, size: 200
+Model: DelayExtensionVertex
+constraint: PartitionerMaximumSizeConstraint(size=256)
+constraint: PartitionerSameSizeAsVertexConstraint(vertex=chain_0 with 200 atoms)
+
+Vertex chain_1_delayed, size: 200
+Model: DelayExtensionVertex
+constraint: PartitionerSameSizeAsVertexConstraint(vertex=chain_1 with 200 atoms)
+constraint: PartitionerMaximumSizeConstraint(size=256)
+
+Vertex chain_2_delayed, size: 200
+Model: DelayExtensionVertex
+constraint: PartitionerMaximumSizeConstraint(size=256)
+constraint: PartitionerSameSizeAsVertexConstraint(vertex=chain_2 with 200 atoms)
+
+Vertex chain_3_delayed, size: 200
+Model: DelayExtensionVertex
+constraint: PartitionerSameSizeAsVertexConstraint(vertex=chain_3 with 200 atoms)
+constraint: PartitionerMaximumSizeConstraint(size=256)
+
+Vertex chain_4_delayed, size: 200
+Model: DelayExtensionVertex
+constraint: PartitionerMaximumSizeConstraint(size=256)
+constraint: PartitionerSameSizeAsVertexConstraint(vertex=chain_4 with 200 atoms)
+
+Vertex chain_5_delayed, size: 200
+Model: DelayExtensionVertex
+constraint: PartitionerSameSizeAsVertexConstraint(vertex=chain_5 with 200 atoms)
+constraint: PartitionerMaximumSizeConstraint(size=256)
+
+Vertex chain_6_delayed, size: 200
+Model: DelayExtensionVertex
+constraint: PartitionerMaximumSizeConstraint(size=256)
+constraint: PartitionerSameSizeAsVertexConstraint(vertex=chain_6 with 200 atoms)
+
+Vertex chain_7_delayed, size: 200
+Model: DelayExtensionVertex
+constraint: PartitionerSameSizeAsVertexConstraint(vertex=chain_7 with 200 atoms)
+constraint: PartitionerMaximumSizeConstraint(size=256)
+
+Vertex chain_8_delayed, size: 200
+Model: DelayExtensionVertex
+constraint: PartitionerMaximumSizeConstraint(size=256)
+constraint: PartitionerSameSizeAsVertexConstraint(vertex=chain_8 with 200 atoms)
+
+Vertex chain_9_delayed, size: 200
+Model: DelayExtensionVertex
+constraint: PartitionerMaximumSizeConstraint(size=256)
+constraint: PartitionerSameSizeAsVertexConstraint(vertex=chain_9 with 200 atoms)
+
+*** Edges:
+Edge Projection 9 from vertex: 'chain_9' (200 atoms) to vertex: 'chain_0' (200 atoms)
+  Model: No Model
+
+Edge chain_9_to_DelayExtension from vertex: 'chain_9' (200 atoms) to vertex: 'chain_9_delayed' (200 atoms)
+  Model: No Model
+
+Edge chain_5_delayed_to_chain_6 from vertex: 'chain_5_delayed' (200 atoms) to vertex: 'chain_6' (200 atoms)
+  Model: No Model
+
+Edge Projection 4 from vertex: 'chain_4' (200 atoms) to vertex: 'chain_5' (200 atoms)
+  Model: No Model
+
+Edge chain_4_to_DelayExtension from vertex: 'chain_4' (200 atoms) to vertex: 'chain_4_delayed' (200 atoms)
+  Model: No Model
+
+Edge chain_9_delayed_to_chain_0 from vertex: 'chain_9_delayed' (200 atoms) to vertex: 'chain_0' (200 atoms)
+  Model: No Model
+
+Edge chain_0_delayed_to_chain_1 from vertex: 'chain_0_delayed' (200 atoms) to vertex: 'chain_1' (200 atoms)
+  Model: No Model
+
+Edge Projection 10 from vertex: 'stimulus' (1 atoms) to vertex: 'chain_0' (200 atoms)
+  Model: No Model
+
+Edge Projection 5 from vertex: 'chain_5' (200 atoms) to vertex: 'chain_6' (200 atoms)
+  Model: No Model
+
+Edge chain_5_to_DelayExtension from vertex: 'chain_5' (200 atoms) to vertex: 'chain_5_delayed' (200 atoms)
+  Model: No Model
+
+Edge chain_1_delayed_to_chain_2 from vertex: 'chain_1_delayed' (200 atoms) to vertex: 'chain_2' (200 atoms)
+  Model: No Model
+
+Edge chain_7_delayed_to_chain_8 from vertex: 'chain_7_delayed' (200 atoms) to vertex: 'chain_8' (200 atoms)
+  Model: No Model
+
+Edge Projection 6 from vertex: 'chain_6' (200 atoms) to vertex: 'chain_7' (200 atoms)
+  Model: No Model
+
+Edge chain_6_to_DelayExtension from vertex: 'chain_6' (200 atoms) to vertex: 'chain_6_delayed' (200 atoms)
+  Model: No Model
+
+Edge Projection 1 from vertex: 'chain_1' (200 atoms) to vertex: 'chain_2' (200 atoms)
+  Model: No Model
+
+Edge chain_1_to_DelayExtension from vertex: 'chain_1' (200 atoms) to vertex: 'chain_1_delayed' (200 atoms)
+  Model: No Model
+
+Edge chain_2_delayed_to_chain_3 from vertex: 'chain_2_delayed' (200 atoms) to vertex: 'chain_3' (200 atoms)
+  Model: No Model
+
+Edge Projection 7 from vertex: 'chain_7' (200 atoms) to vertex: 'chain_8' (200 atoms)
+  Model: No Model
+
+Edge chain_7_to_DelayExtension from vertex: 'chain_7' (200 atoms) to vertex: 'chain_7_delayed' (200 atoms)
+  Model: No Model
+
+Edge Projection 2 from vertex: 'chain_2' (200 atoms) to vertex: 'chain_3' (200 atoms)
+  Model: No Model
+
+Edge chain_2_to_DelayExtension from vertex: 'chain_2' (200 atoms) to vertex: 'chain_2_delayed' (200 atoms)
+  Model: No Model
+
+Edge chain_8_delayed_to_chain_9 from vertex: 'chain_8_delayed' (200 atoms) to vertex: 'chain_9' (200 atoms)
+  Model: No Model
+
+Edge chain_3_delayed_to_chain_4 from vertex: 'chain_3_delayed' (200 atoms) to vertex: 'chain_4' (200 atoms)
+  Model: No Model
+
+Edge Projection 0 from vertex: 'chain_0' (200 atoms) to vertex: 'chain_1' (200 atoms)
+  Model: No Model
+
+Edge chain_0_to_DelayExtension from vertex: 'chain_0' (200 atoms) to vertex: 'chain_0_delayed' (200 atoms)
+  Model: No Model
+
+Edge Projection 8 from vertex: 'chain_8' (200 atoms) to vertex: 'chain_9' (200 atoms)
+  Model: No Model
+
+Edge chain_8_to_DelayExtension from vertex: 'chain_8' (200 atoms) to vertex: 'chain_8_delayed' (200 atoms)
+  Model: No Model
+
+Edge Projection 3 from vertex: 'chain_3' (200 atoms) to vertex: 'chain_4' (200 atoms)
+  Model: No Model
+
+Edge chain_3_to_DelayExtension from vertex: 'chain_3' (200 atoms) to vertex: 'chain_3_delayed' (200 atoms)
+  Model: No Model
+
+Edge chain_6_delayed_to_chain_7 from vertex: 'chain_6_delayed' (200 atoms) to vertex: 'chain_7' (200 atoms)
+  Model: No Model
+
+Edge chain_4_delayed_to_chain_5 from vertex: 'chain_4_delayed' (200 atoms) to vertex: 'chain_5' (200 atoms)
+  Model: No Model
+

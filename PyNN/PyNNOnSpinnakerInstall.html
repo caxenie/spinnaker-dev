@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/images/favicon.png" />
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>PyNN on SpiNNaker Installation Guide</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>PyNN on SpiNNaker Installation Guide</h1>
+      </div>
+      <a href="https://github.com/SpiNNakerManchester" class="button"><small>Follow me on</small> GitHub</a>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+        <p>This guide will detail how to install the release version of the tools required to run simulations on SpiNNaker using the PyNN scripting language.</p>
+
+<p>This has been tested using Fedora Linux 20 64-bit, Ubuntu Linux 14.04 LTS 64-bit, Windows 8.1 64-bit, and Mac OS X Mavericks, but it should in principle work on 32-bit and 64-bit versions of Fedora and Ubuntu Linux, Windows 7, 8 and 10, and Mac OS X.</p>
+
+<h1 id="contents">Contents</h1>
+<ul>
+  <li><a href="#Ubuntu">Ubuntu Linux Requirements</a></li>
+  <li><a href="#Fedora">Fedora Linux Requirements</a></li>
+  <li><a href="#MacOSX">Mac OS X Requirements</a></li>
+  <li><a href="#Windows32">32-bit Windows Requirements</a></li>
+  <li><a href="#Windows64">64-bit Windows Requirements</a></li>
+  <li><a href="#WindowsPath">Windows PATH settings</a></li>
+  <li><a href="#Central">Standard Central Installation</a></li>
+  <li><a href="#User">User-Only Installation</a></li>
+  <li><a href="#Virtualenv">Virtualenv Installation</a></li>
+  <li><a href="#Configuration">Configuration</a></li>
+  <li><a href="#Examples">Running some examples</a></li>
+  <li><a href="#Trouble">Troubleshooting</a></li>
+</ul>
+
+<h1 id="a-nameubuntua-ubuntu-linux-requirements"><a name="Ubuntu"></a> Ubuntu Linux Requirements</h1>
+<ol>
+  <li>Install Python<br />
+<code class="highlighter-rouge">sudo apt-get install python2.7</code></li>
+  <li>Install numpy<br />
+<code class="highlighter-rouge">sudo apt-get install python-numpy</code></li>
+  <li>Install scipy<br />
+<code class="highlighter-rouge">sudo apt-get install python-scipy</code></li>
+  <li>Install lxml<br />
+<code class="highlighter-rouge">sudo apt-get install python-lxml</code></li>
+  <li>Install pip<br />
+<code class="highlighter-rouge">sudo apt-get install python-pip</code></li>
+  <li><em>Optional:</em> Install matplotlib (often used in PyNN scripts for plotting graphs)<br />
+<code class="highlighter-rouge">sudo apt-get install python-matplotlib</code></li>
+</ol>
+
+<p>Continue to the <a href="#Central">Standard Central Installation</a>, <a href="#User">User-only Installation</a> or <a href="#Virtualenv">Virtualenv Installation</a> to install the remaining requirements.</p>
+
+<h1 id="a-namefedoraa-fedora-linux-requirements"><a name="Fedora"></a> Fedora Linux Requirements</h1>
+<ol>
+  <li>Install Python<br />
+<code class="highlighter-rouge">sudo dnf install python</code></li>
+  <li>Install numpy<br />
+<code class="highlighter-rouge">sudo dnf install numpy</code></li>
+  <li>Install scipy<br />
+<code class="highlighter-rouge">sudo dnf install scipy</code></li>
+  <li>Install lxml<br />
+<code class="highlighter-rouge">sudo dnf install python-lxml</code></li>
+  <li>Install pip<br />
+<code class="highlighter-rouge">sudo dnf install python-pip</code></li>
+  <li><em>Optional:</em> Install matplotlib (often used in PyNN scripts for plotting graphs)<br />
+<code class="highlighter-rouge">sudo dnf install python-matplotlib</code></li>
+</ol>
+
+<p>Continue to the <a href="#Central">Standard Central Installation</a>, <a href="#User">User-only Installation</a> or <a href="#Virtualenv">Virtualenv Installation</a> to install the remaining requirements.</p>
+
+<h1 id="a-namemacosxa-mac-os-x-requirements"><a name="MacOSX"></a> Mac OS X Requirements</h1>
+<ol>
+  <li>Download and install <a href="https://www.macports.org/install.php" target="_blank">MacPorts</a></li>
+  <li>Install python<br />
+<code class="highlighter-rouge">sudo port install python27</code><br />
+<code class="highlighter-rouge">sudo port select --set python python27</code></li>
+  <li>Install numpy<br />
+<code class="highlighter-rouge">sudo port install py27-numpy</code></li>
+  <li>Install scipy<br />
+<code class="highlighter-rouge">sudo port install py27-scipy</code></li>
+  <li>Install lxml<br />
+<code class="highlighter-rouge">sudo port install py27-lxml</code></li>
+  <li>Install pip<br />
+<code class="highlighter-rouge">sudo port install py27-pip</code><br />
+<code class="highlighter-rouge">sudo port select --set pip pip27</code></li>
+  <li><em>Optional:</em> Install matplotlib (often used in PyNN scripts for plotting graphs)<br />
+<code class="highlighter-rouge">sudo port install py27-matplotlib</code></li>
+</ol>
+
+<p>Continue to the <a href="#Central">Standard Central Installation</a>, <a href="#User">User-only Installation</a> or <a href="#Virtualenv">Virtualenv Installation</a> to install the remaining requirements.</p>
+
+<h1 id="a-namewindows32a-32-bit-windows-requirements"><a name="Windows32"></a> 32-bit Windows Requirements</h1>
+<ol>
+  <li>Download and install <a href="https://github.com/SpiNNakerManchester/github.SpiNNakerManchester.io/releases/download/v1.0-win32/python-2.7.6.msi">Python</a></li>
+  <li>Download and install <a href="https://github.com/SpiNNakerManchester/github.SpiNNakerManchester.io/releases/download/v1.0-win32/numpy-MKL-1.9.1.win32-py2.7.exe">numpy</a></li>
+  <li>Download and install <a href="https://github.com/SpiNNakerManchester/github.SpiNNakerManchester.io/releases/download/v1.0-win32/scipy-0.14.1rc1.win32-py2.7.exe">scipy</a></li>
+  <li>Download and install <a href="https://github.com/SpiNNakerManchester/github.SpiNNakerManchester.io/releases/download/v1.0-win32/lxml-3.4.1.win32-py2.7.exe">lxml</a></li>
+  <li>Download and install <a href="https://github.com/SpiNNakerManchester/github.SpiNNakerManchester.io/releases/download/v1.0-win32/setuptools-5.8.win32-py2.7.exe">setuptools</a> and [pip] (https://github.com/SpiNNakerManchester/github.SpiNNakerManchester.io/releases/download/v1.0-win32/pip-1.5.6.win32-py2.7.exe)</li>
+  <li><em>Optional:</em> Download and install matplotlib (often used in PyNN scripts for plotting graphs)
+    <ol>
+      <li>Download and install 
+<a href="https://github.com/SpiNNakerManchester/github.SpiNNakerManchester.io/releases/download/v1.0-win32/python-dateutil-2.2.win32-py2.7.exe">dateutil</a>, 
+<a href="https://github.com/SpiNNakerManchester/github.SpiNNakerManchester.io/releases/download/v1.0-win32/pyparsing-2.0.2.win32-py2.7.exe">pyparsing</a>, 
+<a href="https://github.com/SpiNNakerManchester/github.SpiNNakerManchester.io/releases/download/v1.0-win32/six-1.6.1.win32-py2.7.exe">six</a> and 
+<a href="https://github.com/SpiNNakerManchester/github.SpiNNakerManchester.io/releases/download/v1.0-win32/matplotlib-1.3.1.win32-py2.7.exe">matplotlib</a></li>
+    </ol>
+  </li>
+</ol>
+
+<p>Continue to <a href="#WindowsPath">edit your PATH</a>, before installing the remaining requirements.</p>
+
+<h1 id="a-namewindows64a-64-bit-windows-requirements"><a name="Windows64"></a> 64-bit Windows Requirements</h1>
+<ol>
+  <li>Download and install <a href="https://github.com/SpiNNakerManchester/github.SpiNNakerManchester.io/releases/download/v1.0-win64/python-2.7.6.amd64.msi">Python</a></li>
+  <li>Download and install <a href="https://github.com/SpiNNakerManchester/github.SpiNNakerManchester.io/releases/download/v1.0-win64/numpy-MKL-1.9.1.win-amd64-py2.7.exe">numpy</a></li>
+  <li>Download and install <a href="https://github.com/SpiNNakerManchester/github.SpiNNakerManchester.io/releases/download/v1.0-win64/scipy-0.14.1rc1.win-amd64-py2.7.exe">scipy</a></li>
+  <li>Download and install <a href="https://github.com/SpiNNakerManchester/github.SpiNNakerManchester.io/releases/download/v1.0-win64/lxml-3.4.1.win-amd64-py2.7.exe">lxml</a></li>
+  <li>Download and install <a href="https://github.com/SpiNNakerManchester/github.SpiNNakerManchester.io/releases/download/v1.0-win64/setuptools-5.8.win-amd64-py2.7.exe">setuptools</a> and [pip] (https://github.com/SpiNNakerManchester/github.SpiNNakerManchester.io/releases/download/v1.0-win64/pip-1.5.6.win-amd64-py2.7.exe)</li>
+  <li><em>Optional:</em> Download and install matplotlib (often used in PyNN scripts for plotting graphs)
+    <ol>
+      <li>Download and install
+<a href="https://github.com/SpiNNakerManchester/github.SpiNNakerManchester.io/releases/download/v1.0-win64/python-dateutil-2.2.win-amd64-py2.7.exe">dateutil</a>, 
+<a href="https://github.com/SpiNNakerManchester/github.SpiNNakerManchester.io/releases/download/v1.0-win64/pyparsing-2.0.2.win-amd64-py2.7.exe">pyparsing</a>, 
+<a href="https://github.com/SpiNNakerManchester/github.SpiNNakerManchester.io/releases/download/v1.0-win64/six-1.6.1.win-amd64-py2.7.exe">six</a> and 
+<a href="https://github.com/SpiNNakerManchester/github.SpiNNakerManchester.io/releases/download/v1.0-win64/matplotlib-1.3.1.win-amd64-py2.7.exe">matplotlib</a></li>
+    </ol>
+  </li>
+</ol>
+
+<p>Continue to <a href="#WindowsPath">edit your PATH</a>, before installing the remaining requirements.</p>
+
+<h1 id="a-namewindowspatha-windows-path-settings"><a name="WindowsPath"></a> Windows Path Settings</h1>
+<ol>
+  <li>Edit your PATH environment variable to include the Python27, Python27\Scripts and (if installed) gtk\bin directories.
+    <ol>
+      <li>Go to “Control Panel”</li>
+      <li>Go to “System” (may be under “System and Security”)</li>
+      <li>Select “Advanced System Settings”</li>
+      <li>Select “Environment Variables”</li>
+      <li>Select the “Path” in the “System Variables” box at the bottom</li>
+      <li>Click on “Edit”</li>
+      <li>Add the new directory by putting it before the existing string, followed by a single semi-colon; if you installed the dependencies to the default/recommended locations, prepend Path with:<br />
+<code class="highlighter-rouge">C:\Python27;C:\Python27\Scripts;</code></li>
+    </ol>
+  </li>
+</ol>
+
+<p>Continue to the <a href="#Central">Standard Central Installation</a>, <a href="#User">User-only Installation</a> or <a href="#Virtualenv">Virtualenv Installation</a> to install the remaining requirements.</p>
+
+<h1 id="a-namecentrala-standard-central-installation"><a name="Central"></a> Standard Central Installation</h1>
+<p>These instructions will install the required packages in a central location.  If you are installing on Linux, you must have root access to do this (or prepend each command with <code class="highlighter-rouge">sudo</code>), and Windows users should run these commands from a command prompt run as Administrator (right-click the shortcut for the command prompt and select “Run as administrator” - without the <code class="highlighter-rouge">sudo</code>).</p>
+
+<p>If you already have installed sPyNNaker previously (and the optional sPyNNakerExtraDevicesPlugin and/or sPyNNakerExtraModelsPlugin), you will need to uninstall it:<br />
+<code class="highlighter-rouge">[sudo] pip uninstall pyNN-SpiNNaker</code><br />
+<code class="highlighter-rouge">[sudo] pip uninstall sPyNNaker</code><br />
+<code class="highlighter-rouge">[sudo] pip uninstall sPyNNakerExternalDevicesPlugin</code><br />
+<code class="highlighter-rouge">[sudo] pip uninstall sPyNNakerExtraModelsPlugin</code></p>
+
+<ol>
+  <li>Install sPyNNaker<br />
+<code class="highlighter-rouge">[sudo] pip install "sPyNNaker == 3.0.0"</code></li>
+  <li>Install pyNN-SpiNNaker<br />
+<code class="highlighter-rouge">[sudo] pip install "pyNN-SpiNNaker == 3.0.0"</code></li>
+  <li><em>Optional</em> Install sPyNNakerExternalDevicesPlugin (used for live input and output)<br />
+<code class="highlighter-rouge">[sudo] pip install "sPyNNakerExternalDevicesPlugin == 3.0.0"</code></li>
+  <li><em>Optional</em> Install sPyNNakerExtraModelsPlugin (provides some non-standard PyNN models)<br />
+<code class="highlighter-rouge">[sudo] pip install "sPyNNakerExtraModelsPlugin == 3.0.0"</code></li>
+</ol>
+
+<p>You can now <a href="#Configuration">configure</a> your environment.</p>
+
+<h1 id="a-nameusera-user-only-installation"><a name="User"></a> User-only Installation</h1>
+<p>These instructions will install the required packages only for the current user (in your home directory).  This can avoid issues where you don’t have root access to the machine you are installing on, or on a shared machine where the dependencies might otherwise conflict with those of other users.</p>
+
+<p>If you already have installed sPyNNaker previously (and the optional sPyNNakerExtraDevicesPlugin and/or sPyNNakerExtraModelsPlugin), you will need to uninstall it:<br />
+<code class="highlighter-rouge">pip uninstall pyNN-SpiNNaker</code><br />
+<code class="highlighter-rouge">pip uninstall sPyNNaker</code><br />
+<code class="highlighter-rouge">pip uninstall sPyNNakerExternalDevicesPlugin</code><br />
+<code class="highlighter-rouge">pip uninstall sPyNNakerExtraModelsPlugin</code></p>
+
+<ol>
+  <li>Install sPyNNaker<br />
+<code class="highlighter-rouge">pip install "sPyNNaker == 3.0.0" --user</code></li>
+  <li>Install pyNN-SpiNNaker<br />
+<code class="highlighter-rouge">pip install "pyNN-SpiNNaker == 3.0.0" --user</code></li>
+  <li><em>Optional</em> Install sPyNNakerExternalDevicesPlugin (used for live input and output)<br />
+<code class="highlighter-rouge">pip install "sPyNNakerExternalDevicesPlugin == 3.0.0" --user</code></li>
+  <li><em>Optional</em> Install sPyNNakerExtraModelsPlugin (provides some non-standard PyNN models)<br />
+<code class="highlighter-rouge">pip install "sPyNNakerExtraModelsPlugin == 3.0.0" --user</code></li>
+</ol>
+
+<p>You can now <a href="#Configuration">configure</a> your environment.</p>
+
+<h1 id="a-namevirtualenva-virtualenv-installation"><a name="Virtualenv"></a> Virtualenv Installation</h1>
+<p>These instructions will install the required packages only in a virtualenv.  Like the user-only installation, this can help when you don’t have root access or are on a shared machine.  Additionally, it will help when you have several packages with conflicting dependencies, or those that occupy the same namespace (such as pyNN.spiNNaker if you have an older version of the toolchain).</p>
+
+<p>If you already have installed sPyNNaker previously (and the optional sPyNNakerExtraDevicesPlugin and/or sPyNNakerExtraModelsPlugin), you will need to uninstall it:</p>
+
+<ol>
+  <li>Activate your virtualenv, <code class="highlighter-rouge">&lt;name&gt;</code><br />
+<code class="highlighter-rouge">source &lt;name&gt;/bin/activate</code></li>
+  <li>Uninstall the existing tools<br />
+<code class="highlighter-rouge">pip uninstall pyNN-SpiNNaker</code><br />
+<code class="highlighter-rouge">pip uninstall sPyNNaker</code><br />
+<code class="highlighter-rouge">pip uninstall sPyNNakerExternalDevicesPlugin</code><br />
+<code class="highlighter-rouge">pip uninstall sPyNNakerExtraModelsPlugin</code></li>
+</ol>
+
+<p>The installation of virtualenv and the linking to the external libraries is platform dependent.</p>
+
+<ul>
+  <li><a href="#UbuntuVirtualenv">Ubuntu Virtualenv Installation</a></li>
+  <li><a href="#Fedora32Virtualenv">32-bit Fedora Virtualenv Installation</a></li>
+  <li><a href="#Fedora64Virtualenv">64-bit Fedora Virtualenv Installation</a></li>
+  <li><a href="#MacOSXVirtualenv">Mac OS X Virtualenv Installation</a></li>
+  <li><a href="#WindowsVirtualenv">Windows Virtualenv Installation</a></li>
+</ul>
+
+<h2 id="a-nameubuntuvirtualenva-ubuntu-virtualenv-installation"><a name="UbuntuVirtualenv"></a> Ubuntu Virtualenv Installation</h2>
+<ol>
+  <li>Install virtualenv<br />
+<code class="highlighter-rouge">sudo pip install virtualenv</code></li>
+  <li>Create a virtualenv; <code class="highlighter-rouge">&lt;name&gt;</code> in the following can be replaced by the name of your choice<br />
+<code class="highlighter-rouge">virtualenv &lt;name&gt;</code></li>
+  <li>Activate the virtualenv<br />
+<code class="highlighter-rouge">source &lt;name&gt;/bin/activate</code></li>
+  <li>Link numpy to the virtualenv<br />
+<code class="highlighter-rouge">ln -s /usr/lib/python2.7/dist-packages/numpy* $VIRTUAL_ENV/lib/python2.7/site-packages/</code></li>
+  <li>Link scipy to the virtualenv<br />
+<code class="highlighter-rouge">ln -s /usr/lib/python2.7/dist-packages/scipy* $VIRTUAL_ENV/lib/python2.7/site-packages/</code></li>
+  <li>Link lxml to the virtualenv<br />
+<code class="highlighter-rouge">ln -s /usr/lib/python2.7/dist-packages/lxml* $VIRTUAL_ENV/lib/python2.7/site-packages/</code></li>
+  <li><em>Optional:</em> link matplotlib to the virtualenv and install dependencies (only if you chose to install matplotlib)<br />
+<code class="highlighter-rouge">pip install python-dateutil</code><br />
+<code class="highlighter-rouge">pip install pyparsing</code><br />
+<code class="highlighter-rouge">pip install six</code><br />
+<code class="highlighter-rouge">ln -s /usr/lib/pymodules/python2.7/matplotlib $VIRTUAL_ENV/lib/python2.7/site-packages/</code><br />
+<code class="highlighter-rouge">ln -s /usr/lib/pymodules/python2.7/pylab.py $VIRTUAL_ENV/lib/python2.7/site-packages/</code></li>
+</ol>
+
+<p>You must now <a href="#VirtualEnvCommon">install sPyNNaker</a></p>
+
+<h2 id="a-namefedora32virtualenva-32-bit-fedora-virtualenv-installation"><a name="Fedora32Virtualenv"></a> 32-bit Fedora Virtualenv Installation</h2>
+<ol>
+  <li>Install virtualenv<br />
+<code class="highlighter-rouge">sudo pip install virtualenv</code></li>
+  <li>Create a virtualenv; <code class="highlighter-rouge">&lt;name&gt;</code> in the following can be replaced by the name of your choice<br />
+<code class="highlighter-rouge">virtualenv &lt;name&gt;</code></li>
+  <li>Activate the virtualenv<br />
+<code class="highlighter-rouge">source &lt;name&gt;/bin/activate</code></li>
+  <li>Link numpy to the virtualenv<br />
+<code class="highlighter-rouge">ln -s /usr/lib/python2.7/site-packages/numpy* $VIRTUAL_ENV/lib/python2.7/site-packages/</code></li>
+  <li>Link scipy to the virtualenv<br />
+<code class="highlighter-rouge">ln -s /usr/lib/python2.7/site-packages/scipy* $VIRTUAL_ENV/lib/python2.7/site-packages/</code></li>
+  <li>Link lxml to the virtualenv<br />
+<code class="highlighter-rouge">ln -s /usr/lib/python2.7/site-packages/lxml* $VIRTUAL_ENV/lib/python2.7/site-packages/</code></li>
+  <li><em>Optional:</em> link matplotlib to the virtualenv and install dependencies (only if you chose to install matplotlib)<br />
+<code class="highlighter-rouge">pip install python-dateutil</code><br />
+<code class="highlighter-rouge">pip install pyparsing</code><br />
+<code class="highlighter-rouge">pip install six</code><br />
+<code class="highlighter-rouge">ln -s /usr/lib/python2.7/site-packages/matplotlib $VIRTUAL_ENV/lib/python2.7/site-packages/</code><br />
+<code class="highlighter-rouge">ln -s /usr/lib/python2.7/site-packages/pylab.py $VIRTUAL_ENV/lib/python2.7/site-packages/</code></li>
+</ol>
+
+<p>You must now <a href="#VirtualEnvCommon">install sPyNNaker</a></p>
+
+<h2 id="a-namefedora64virtualenva-64-bit-fedora-virtualenv-installation"><a name="Fedora64Virtualenv"></a> 64-bit Fedora Virtualenv Installation</h2>
+<ol>
+  <li>Install virtualenv<br />
+<code class="highlighter-rouge">sudo pip install virtualenv</code></li>
+  <li>Create a virtualenv; <code class="highlighter-rouge">&lt;name&gt;</code> in the following can be replaced by the name of your choice<br />
+<code class="highlighter-rouge">virtualenv &lt;name&gt;</code></li>
+  <li>Activate the virtualenv<br />
+<code class="highlighter-rouge">source &lt;name&gt;/bin/activate</code></li>
+  <li>Link numpy to the virtualenv<br />
+<code class="highlighter-rouge">ln -s /usr/lib64/python2.7/site-packages/numpy* $VIRTUAL_ENV/lib/python2.7/site-packages/</code></li>
+  <li>Link scipy to the virtualenv<br />
+<code class="highlighter-rouge">ln -s /usr/lib64/python2.7/site-packages/scipy* $VIRTUAL_ENV/lib/python2.7/site-packages/</code></li>
+  <li>Link lxml to the virtualenv<br />
+<code class="highlighter-rouge">ln -s /usr/lib64/python2.7/site-packages/lxml* $VIRTUAL_ENV/lib/python2.7/site-packages/</code></li>
+  <li><em>Optional:</em> link matplotlib to the virtualenv and install dependencies (only if you chose to install matplotlib)<br />
+<code class="highlighter-rouge">pip install python-dateutil</code><br />
+<code class="highlighter-rouge">pip install pyparsing</code><br />
+<code class="highlighter-rouge">pip install six</code><br />
+<code class="highlighter-rouge">ln -s /usr/lib64/python2.7/site-packages/matplotlib $VIRTUAL_ENV/lib/python2.7/site-packages/</code><br />
+<code class="highlighter-rouge">ln -s /usr/lib64/python2.7/site-packages/pylab.py $VIRTUAL_ENV/lib/python2.7/site-packages/</code></li>
+</ol>
+
+<p>You must now <a href="#VirtualEnvCommon">install sPyNNaker</a></p>
+
+<h2 id="a-namemacosxvirtualenva-mac-os-x-virtualenv-installation"><a name="MacOSXVirtualenv"></a> Mac OS X Virtualenv Installation</h2>
+<ol>
+  <li>Install virtualenv<br />
+<code class="highlighter-rouge">sudo pip install virtualenv</code></li>
+  <li>Create a virtualenv; <code class="highlighter-rouge">&lt;name&gt;</code> in the following can be replaced by the name of your choice<br />
+<code class="highlighter-rouge">virtualenv &lt;name&gt;</code></li>
+  <li>Activate the virtualenv<br />
+<code class="highlighter-rouge">source &lt;name&gt;/bin/activate</code></li>
+  <li>Link numpy to the virtualenv<br />
+<code class="highlighter-rouge">ln -s /opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/numpy* $VIRTUAL_ENV/lib/python2.7/site-packages/</code></li>
+  <li>Link scipy to the virtualenv<br />
+<code class="highlighter-rouge">ln -s /opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/scipy* $VIRTUAL_ENV/lib/python2.7/site-packages/</code></li>
+  <li>Link lxml to the virtualenv<br />
+<code class="highlighter-rouge">ln -s /opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/lxml* $VIRTUAL_ENV/lib/python2.7/site-packages/</code></li>
+  <li><em>Optional:</em> link matplotlib to the virtualenv and install dependencies (only if you chose to install matplotlib)<br />
+<code class="highlighter-rouge">pip install python-dateutil</code><br />
+<code class="highlighter-rouge">pip install pyparsing</code><br />
+<code class="highlighter-rouge">pip install six</code><br />
+<code class="highlighter-rouge">ln -s /opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/matplotlib $VIRTUAL_ENV/lib/python2.7/site-packages/</code><br />
+<code class="highlighter-rouge">ln -s /opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pylab.py $VIRTUAL_ENV/lib/python2.7/site-packages/</code></li>
+</ol>
+
+<p>You must now <a href="#VirtualEnvCommon">install sPyNNaker</a></p>
+
+<h2 id="a-namewindowsvirtualenva-windows-virtualenv-installation"><a name="WindowsVirtualenv"></a> Windows Virtualenv Installation</h2>
+<ol>
+  <li>Open a console as administrator and cd to your home directory<br />
+<code class="highlighter-rouge">cd %HOMEPATH%</code></li>
+  <li>Install virtualenv<br />
+<code class="highlighter-rouge">pip install virtualenv</code></li>
+  <li>Create a virtualenv; <code class="highlighter-rouge">&lt;name&gt;</code> in the following can be replaced by the name of your choice<br />
+<code class="highlighter-rouge">virtualenv &lt;name&gt;</code></li>
+  <li>Activate the virtualenv<br />
+<code class="highlighter-rouge">&lt;name&gt;\Scripts\activate.bat</code></li>
+  <li>Link numpy to the virtualenv<br />
+<code class="highlighter-rouge">mklink /D %VIRTUAL_ENV%\Lib\site-packages\numpy C:\Python27\Lib\site-packages\numpy</code><br />
+<code class="highlighter-rouge">mklink %VIRTUAL_ENV%\Lib\site-packages\numpy-1.9.1-py2.7.egg-info C:\Python27\site-packages\numpy-1.9.1-py2.7.egg-info</code></li>
+  <li>Link scipy to the virtualenv<br />
+<code class="highlighter-rouge">mklink /D %VIRTUAL_ENV%\Lib\site-packages\scipy C:\Python27\Lib\site-packages\scipy</code><br />
+<code class="highlighter-rouge">mklink %VIRTUAL_ENV%\Lib\site-packages\scipy-0.14.1rc1-py2.7.egg-info C:\Python27\site-packages\scipy-0.14.1rc1-py2.7.egg-info</code></li>
+  <li>Link lxml to the virtualenv<br />
+<code class="highlighter-rouge">mklink /D %VIRTUAL_ENV%\Lib\site-packages\lxml C:\Python27\Lib\site-packages\lxml</code><br />
+<code class="highlighter-rouge">mklink /D %VIRTUAL_ENV%\Lib\site-packages\lxml-3.4.1-py2.7.egg-info C:\Python27\site-packages\lxml-3.4.1-py2.7.egg-info</code></li>
+  <li><em>Optional:</em> link matplotlib to the virtualenv and install dependencies (only if you chose to install matplotlib)<br />
+<code class="highlighter-rouge">pip install python-dateutil</code><br />
+<code class="highlighter-rouge">pip install pyparsing</code><br />
+<code class="highlighter-rouge">pip install six</code><br />
+<code class="highlighter-rouge">mklink /D %VIRTUAL_ENV%\Lib\site-packages\matplotlib C:\Python27\Lib\site-packages\matplotlib</code><br />
+<code class="highlighter-rouge">mklink %VIRTUAL_ENV%\Lib\site-packages\pylab.py C:\Python27\Lib\site-packages\pylab.py</code></li>
+  <li><em>Optional:</em> To make matplotlib work within a virtualenv, create the following environment variables:<br />
+<code class="highlighter-rouge">TCL_LIBRARY: C:\Python27\tcl\tcl8.5</code><br />
+<code class="highlighter-rouge">TK_LIBRARY: C:\Python27\tcl\tk8.5</code></li>
+</ol>
+
+<p>You must now <a href="#VirtualEnvCommon">install sPyNNaker</a></p>
+
+<h1 id="a-namevirtualenvcommona-virtual-env-common-install"><a name="VirtualEnvCommon"></a> Virtual Env Common Install</h1>
+<ol>
+  <li>Install sPyNNaker<br />
+<code class="highlighter-rouge">pip install "sPyNNaker == 3.0.0"</code></li>
+  <li>Install pyNN-SpiNNaker<br />
+<code class="highlighter-rouge">pip install "pyNN-SpiNNaker == 3.0.0"</code></li>
+  <li><em>Optional</em> Install sPyNNakerExternalDevicesPlugin (used for live input and output)<br />
+<code class="highlighter-rouge">pip install "sPyNNakerExternalDevicesPlugin == 3.0.0"</code></li>
+  <li><em>Optional</em> Install sPyNNakerExtraModelsPlugin (provides some non-standard PyNN models)<br />
+<code class="highlighter-rouge">pip install "sPyNNakerExtraModelsPlugin == 3.0.0"</code></li>
+</ol>
+
+<p>You can now <a href="#Configuration">configure</a> your environment.</p>
+
+<h1 id="a-nameconfigurationa-configuration"><a name="Configuration"></a> Configuration</h1>
+<p>When SpyNNaker is first called, if a configuration file is not found, it will create one in your home directory and exit.  It is possible to ask SpyNNaker to do this before you run your first simulation as follows:<br />
+<code class="highlighter-rouge">python -c "import pyNN.spiNNaker"</code></p>
+
+<p>Note that if you have previously installed a version of the spiNNaker software, you may already have a file called “.pacman.cfg” in your home directory.  In this case, SpyNNaker will attempt to use this file for its paramters.  If you don’t have this file, a new file called “.spynnaker.cfg” will be created in your home directory.  You must edit this file to ensure that SpyNNaker can access your SpiNNaker machine.  Upon opening this file, the part to alter will look like the following:<br />
+<code class="highlighter-rouge">[Machine]</code><br />
+<code class="highlighter-rouge">machineName = None</code><br />
+<code class="highlighter-rouge">version = None</code></p>
+
+<p>If you have a SpiNNaker board, then go to <a href="#LocalBoard">Local Board</a> if you do not have a SpiNNaker board, please follow the instructions in <a href="/common_pages/3.0.0/VirtualMode.html">Instructions on how to use the different front ends in virtual mode</a> and then go to <a href="#Examples">Running some examples</a>.</p>
+
+<h1 id="a-namelocalboarda-local-board"><a name="LocalBoard"></a> Local Board</h1>
+
+<p>Within the file, you should set <code class="highlighter-rouge">machineName</code> to the IP address or hostname of your SpiNNaker machine, and <code class="highlighter-rouge">version</code> to the version of your SpiNNaker board; this will almost certainly be “3” for a 4-chip board or “5” on a 48-chip board.</p>
+
+<p>The default ip address for a spinn-3 board is 192.168.240.253 and the default ip address for a spinn-5 board is 192.168.240.1</p>
+
+<p>now go to <a href="#Network Configuration">Network Configuration</a>.</p>
+
+<h2 id="a-namenetwork-configurationa-network-configuration"><a name="Network Configuration"></a> Network Configuration</h2>
+
+<ol>
+  <li>Go to the network settings for your computer and add or set an IPv4 entry with the following address for the adapter connected to the SpiNNaker board:
+    <ol>
+      <li>ip address = 192.168.240.254</li>
+      <li>sub-mask = 255.255.255.0</li>
+      <li>default gateway = 0.0.0.0</li>
+    </ol>
+  </li>
+</ol>
+
+<h1 id="a-nameexamplesa-running-some-examples"><a name="Examples"></a> Running some examples</h1>
+<ol>
+  <li>Download the examples from <a href="https://github.com/SpiNNakerManchester/PyNNExamples/archive/3.0.0.zip">here</a> (zip) or <a href="https://github.com/SpiNNakerManchester/PyNNExamples/archive/3.0.0.tar.gz">here</a> (tar.gz)</li>
+  <li>Extract the archive</li>
+  <li>Go to the “examples” folder</li>
+  <li>Run:<br />
+<code class="highlighter-rouge">python va_benchmark.py</code></li>
+  <li>You will see the system go through a series of processes from partitioning, to placement, to routing and finally to loading and running.</li>
+  <li>Once the example has finished, you should see a graph, that will look something like this:<br />
+<img src="va_benchmark.png" alt="VABenchmarkSpikes" />
+If you get the output above, you have successfully installed your system.</li>
+</ol>
+
+<h1 id="a-nametroublea-troubleshooting"><a name="Trouble"></a> Troubleshooting</h1>
+
+<ol>
+  <li>If you experience the error:</li>
+</ol>
+
+<p><code class="highlighter-rouge">**UnicodeDecodeError: 'ascii' codec can't decode byte 0xb0 in position 1: ordinal not in range(128)**</code></p>
+
+<p>Then to solve it, edit C:\Python27\Lib\mimetypes.py and add these codes:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>if sys.getdefaultencoding() != 'gbk':  
+    reload(sys)
+    sys.setdefaultencoding('gbk')
+</code></pre>
+</div>
+
+<p>before the following line:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>default_encoding = sys.getdefaultencoding()
+</code></pre>
+</div>
+
+        </section>
+
+        <!-- <aside id="sidebar">
+        </aside> -->
+      </div>
+    </div>
+
+
+  </body>
+</html>

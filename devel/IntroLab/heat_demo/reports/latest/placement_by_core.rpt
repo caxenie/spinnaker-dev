@@ -1,0 +1,333 @@
+        Placement Information by Core
+        =============================
+
+Generated: Mon Sep  5 11:45:16 2016 for target machine '192.168.240.253'
+
+**** Chip: (0, 0)
+Application cores: 18
+  Processor 1: Vertex: 'Tracer' 
+  Processor 1: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 2: Vertex: 'Tracer' 
+  Processor 2: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 3: Vertex: 'Tracer' 
+  Processor 3: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 4: Vertex: 'Tracer' 
+  Processor 4: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 5: Vertex: 'Tracer' 
+  Processor 5: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 6: Vertex: 'Tracer' 
+  Processor 6: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 7: Vertex: 'Tracer' 
+  Processor 7: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 8: Vertex: 'Tracer' 
+  Processor 8: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 9: Vertex: 'Tracer' 
+  Processor 9: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 10: Vertex: 'Tracer' 
+  Processor 10: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 11: Vertex: 'Tracer' 
+  Processor 11: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 12: Vertex: 'Tracer' 
+  Processor 12: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 13: Vertex: 'Tracer' 
+  Processor 13: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 14: Vertex: 'Tracer' 
+  Processor 14: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 15: Vertex: 'Tracer' 
+  Processor 15: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 16: Vertex: 'Tracer' 
+  Processor 16: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+**** Chip: (0, 1)
+Application cores: 18
+  Processor 1: Vertex: 'Tracer' 
+  Processor 1: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 2: Vertex: 'Tracer' 
+  Processor 2: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 3: Vertex: 'Tracer' 
+  Processor 3: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 4: Vertex: 'Tracer' 
+  Processor 4: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 5: Vertex: 'Tracer' 
+  Processor 5: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 6: Vertex: 'Tracer' 
+  Processor 6: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 7: Vertex: 'Tracer' 
+  Processor 7: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 8: Vertex: 'Tracer' 
+  Processor 8: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 9: Vertex: 'Tracer' 
+  Processor 9: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 10: Vertex: 'Tracer' 
+  Processor 10: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 11: Vertex: 'Tracer' 
+  Processor 11: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 12: Vertex: 'Tracer' 
+  Processor 12: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 13: Vertex: 'Tracer' 
+  Processor 13: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 14: Vertex: 'Tracer' 
+  Processor 14: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 15: Vertex: 'Tracer' 
+  Processor 15: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 16: Vertex: 'Tracer' 
+  Processor 16: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+**** Chip: (1, 0)
+Application cores: 18
+  Processor 1: Vertex: 'Tracer' 
+  Processor 1: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 2: Vertex: 'Tracer' 
+  Processor 2: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 3: Vertex: 'Tracer' 
+  Processor 3: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 4: Vertex: 'Tracer' 
+  Processor 4: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 5: Vertex: 'Tracer' 
+  Processor 5: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 6: Vertex: 'Tracer' 
+  Processor 6: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 7: Vertex: 'Tracer' 
+  Processor 7: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 8: Vertex: 'Tracer' 
+  Processor 8: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 9: Vertex: 'Tracer' 
+  Processor 9: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 10: Vertex: 'Tracer' 
+  Processor 10: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 11: Vertex: 'Tracer' 
+  Processor 11: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 12: Vertex: 'Tracer' 
+  Processor 12: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 13: Vertex: 'Tracer' 
+  Processor 13: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 14: Vertex: 'Tracer' 
+  Processor 14: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 15: Vertex: 'Tracer' 
+  Processor 15: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 16: Vertex: 'Tracer' 
+  Processor 16: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+**** Chip: (1, 1)
+Application cores: 18
+  Processor 1: Vertex: 'Tracer' 
+  Processor 1: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 2: Vertex: 'Tracer' 
+  Processor 2: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 3: Vertex: 'Tracer' 
+  Processor 3: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 4: Vertex: 'Tracer' 
+  Processor 4: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 5: Vertex: 'Tracer' 
+  Processor 5: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 6: Vertex: 'Tracer' 
+  Processor 6: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 7: Vertex: 'Tracer' 
+  Processor 7: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 8: Vertex: 'Tracer' 
+  Processor 8: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 9: Vertex: 'Tracer' 
+  Processor 9: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 10: Vertex: 'Tracer' 
+  Processor 10: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 11: Vertex: 'Tracer' 
+  Processor 11: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 12: Vertex: 'Tracer' 
+  Processor 12: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 13: Vertex: 'Tracer' 
+  Processor 13: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 14: Vertex: 'Tracer' 
+  Processor 14: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 15: Vertex: 'Tracer' 
+  Processor 15: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+
+  Processor 16: Vertex: 'Tracer' 
+  Processor 16: Vertex: 'Tracer' 
+              Model: HeatDemo
+
+

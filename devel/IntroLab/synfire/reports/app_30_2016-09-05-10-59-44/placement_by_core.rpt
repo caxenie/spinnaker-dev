@@ -1,0 +1,216 @@
+        Placement Information by Core
+        =============================
+
+Generated: Mo 05 Sep 2016 10:59:45 BST for target machine '192.168.240.253'
+
+**** Chip: (0, 0)
+Application cores: 18
+  Processor 1: Vertex: 'stimulus', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: SpikeSourceArray
+
+
+  Processor 2: Vertex: 'chain_0', pop size: 280
+              Slice on this core: 0:254 (255 atoms)
+              Model: IFCurrExp
+
+
+  Processor 3: Vertex: 'chain_0_delayed', pop size: 280
+              Slice on this core: 0:254 (255 atoms)
+              Model: DelayExtensionVertex
+
+
+  Processor 4: Vertex: 'chain_0', pop size: 280
+              Slice on this core: 255:279 (25 atoms)
+              Model: IFCurrExp
+
+
+  Processor 5: Vertex: 'chain_0_delayed', pop size: 280
+              Slice on this core: 255:279 (25 atoms)
+              Model: DelayExtensionVertex
+
+
+  Processor 6: Vertex: 'chain_1', pop size: 280
+              Slice on this core: 0:254 (255 atoms)
+              Model: IFCurrExp
+
+
+  Processor 7: Vertex: 'chain_1_delayed', pop size: 280
+              Slice on this core: 0:254 (255 atoms)
+              Model: DelayExtensionVertex
+
+
+  Processor 8: Vertex: 'chain_1', pop size: 280
+              Slice on this core: 255:279 (25 atoms)
+              Model: IFCurrExp
+
+
+  Processor 9: Vertex: 'chain_1_delayed', pop size: 280
+              Slice on this core: 255:279 (25 atoms)
+              Model: DelayExtensionVertex
+
+
+  Processor 10: Vertex: 'chain_2', pop size: 280
+              Slice on this core: 0:254 (255 atoms)
+              Model: IFCurrExp
+
+
+  Processor 11: Vertex: 'chain_2_delayed', pop size: 280
+              Slice on this core: 0:254 (255 atoms)
+              Model: DelayExtensionVertex
+
+
+  Processor 12: Vertex: 'chain_2', pop size: 280
+              Slice on this core: 255:279 (25 atoms)
+              Model: IFCurrExp
+
+
+  Processor 13: Vertex: 'chain_2_delayed', pop size: 280
+              Slice on this core: 255:279 (25 atoms)
+              Model: DelayExtensionVertex
+
+
+  Processor 14: Vertex: 'chain_3', pop size: 280
+              Slice on this core: 0:254 (255 atoms)
+              Model: IFCurrExp
+
+
+  Processor 15: Vertex: 'chain_3_delayed', pop size: 280
+              Slice on this core: 0:254 (255 atoms)
+              Model: DelayExtensionVertex
+
+
+**** Chip: (1, 0)
+Application cores: 18
+  Processor 1: Vertex: 'chain_3', pop size: 280
+              Slice on this core: 255:279 (25 atoms)
+              Model: IFCurrExp
+
+
+  Processor 2: Vertex: 'chain_3_delayed', pop size: 280
+              Slice on this core: 255:279 (25 atoms)
+              Model: DelayExtensionVertex
+
+
+  Processor 3: Vertex: 'chain_4', pop size: 280
+              Slice on this core: 0:254 (255 atoms)
+              Model: IFCurrExp
+
+
+  Processor 4: Vertex: 'chain_4_delayed', pop size: 280
+              Slice on this core: 0:254 (255 atoms)
+              Model: DelayExtensionVertex
+
+
+  Processor 5: Vertex: 'chain_4', pop size: 280
+              Slice on this core: 255:279 (25 atoms)
+              Model: IFCurrExp
+
+
+  Processor 6: Vertex: 'chain_4_delayed', pop size: 280
+              Slice on this core: 255:279 (25 atoms)
+              Model: DelayExtensionVertex
+
+
+  Processor 7: Vertex: 'chain_5', pop size: 280
+              Slice on this core: 0:254 (255 atoms)
+              Model: IFCurrExp
+
+
+  Processor 8: Vertex: 'chain_5_delayed', pop size: 280
+              Slice on this core: 0:254 (255 atoms)
+              Model: DelayExtensionVertex
+
+
+  Processor 9: Vertex: 'chain_5', pop size: 280
+              Slice on this core: 255:279 (25 atoms)
+              Model: IFCurrExp
+
+
+  Processor 10: Vertex: 'chain_5_delayed', pop size: 280
+              Slice on this core: 255:279 (25 atoms)
+              Model: DelayExtensionVertex
+
+
+  Processor 11: Vertex: 'chain_6', pop size: 280
+              Slice on this core: 0:254 (255 atoms)
+              Model: IFCurrExp
+
+
+  Processor 12: Vertex: 'chain_6_delayed', pop size: 280
+              Slice on this core: 0:254 (255 atoms)
+              Model: DelayExtensionVertex
+
+
+  Processor 13: Vertex: 'chain_6', pop size: 280
+              Slice on this core: 255:279 (25 atoms)
+              Model: IFCurrExp
+
+
+  Processor 14: Vertex: 'chain_6_delayed', pop size: 280
+              Slice on this core: 255:279 (25 atoms)
+              Model: DelayExtensionVertex
+
+
+  Processor 15: Vertex: 'chain_7', pop size: 280
+              Slice on this core: 0:254 (255 atoms)
+              Model: IFCurrExp
+
+
+  Processor 16: Vertex: 'chain_7_delayed', pop size: 280
+              Slice on this core: 0:254 (255 atoms)
+              Model: DelayExtensionVertex
+
+
+**** Chip: (1, 1)
+Application cores: 18
+  Processor 1: Vertex: 'chain_7', pop size: 280
+              Slice on this core: 255:279 (25 atoms)
+              Model: IFCurrExp
+
+
+  Processor 2: Vertex: 'chain_7_delayed', pop size: 280
+              Slice on this core: 255:279 (25 atoms)
+              Model: DelayExtensionVertex
+
+
+  Processor 3: Vertex: 'chain_8', pop size: 280
+              Slice on this core: 0:254 (255 atoms)
+              Model: IFCurrExp
+
+
+  Processor 4: Vertex: 'chain_8_delayed', pop size: 280
+              Slice on this core: 0:254 (255 atoms)
+              Model: DelayExtensionVertex
+
+
+  Processor 5: Vertex: 'chain_8', pop size: 280
+              Slice on this core: 255:279 (25 atoms)
+              Model: IFCurrExp
+
+
+  Processor 6: Vertex: 'chain_8_delayed', pop size: 280
+              Slice on this core: 255:279 (25 atoms)
+              Model: DelayExtensionVertex
+
+
+  Processor 7: Vertex: 'chain_9', pop size: 280
+              Slice on this core: 0:254 (255 atoms)
+              Model: IFCurrExp
+
+
+  Processor 8: Vertex: 'chain_9_delayed', pop size: 280
+              Slice on this core: 0:254 (255 atoms)
+              Model: DelayExtensionVertex
+
+
+  Processor 9: Vertex: 'chain_9', pop size: 280
+              Slice on this core: 255:279 (25 atoms)
+              Model: IFCurrExp
+
+
+  Processor 10: Vertex: 'chain_9_delayed', pop size: 280
+              Slice on this core: 255:279 (25 atoms)
+              Model: DelayExtensionVertex
+
+

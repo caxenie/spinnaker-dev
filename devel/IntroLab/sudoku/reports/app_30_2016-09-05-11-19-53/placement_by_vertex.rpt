@@ -1,0 +1,54 @@
+        Placement Information by Vertex
+        ===============================
+
+Generated: Mon Sep  5 11:20:01 2016 for target machine '192.168.240.253'
+
+**** Vertex: 'Cells'
+Model: IFCurrExp
+Pop size: 3645
+Machine Vertices: 
+  Slice 0:254 (255 atoms) on core (0, 0, 2) 
+  Slice 255:509 (255 atoms) on core (0, 0, 3) 
+  Slice 510:764 (255 atoms) on core (0, 0, 4) 
+  Slice 765:1019 (255 atoms) on core (0, 0, 5) 
+  Slice 1020:1274 (255 atoms) on core (0, 0, 6) 
+  Slice 1275:1529 (255 atoms) on core (0, 0, 7) 
+  Slice 1530:1784 (255 atoms) on core (0, 0, 8) 
+  Slice 1785:2039 (255 atoms) on core (0, 0, 9) 
+  Slice 2040:2294 (255 atoms) on core (0, 0, 10) 
+  Slice 2295:2549 (255 atoms) on core (0, 0, 11) 
+  Slice 2550:2804 (255 atoms) on core (0, 0, 12) 
+  Slice 2805:3059 (255 atoms) on core (0, 0, 13) 
+  Slice 3060:3314 (255 atoms) on core (0, 0, 14) 
+  Slice 3315:3569 (255 atoms) on core (0, 0, 15) 
+  Slice 3570:3644 (75 atoms) on core (0, 0, 16) 
+
+**** Vertex: 'LiveSpikeReceiver'
+Model: LivePacketGather
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (0, 0, 1) 
+
+**** Vertex: 'Noise'
+Model: SpikeSourcePoisson
+Pop size: 3645
+Machine Vertices: 
+  Slice 0:499 (500 atoms) on core (1, 0, 1) 
+  Slice 500:999 (500 atoms) on core (1, 0, 2) 
+  Slice 1000:1499 (500 atoms) on core (1, 0, 3) 
+  Slice 1500:1999 (500 atoms) on core (1, 0, 4) 
+  Slice 2000:2499 (500 atoms) on core (1, 0, 5) 
+  Slice 2500:2999 (500 atoms) on core (1, 0, 6) 
+  Slice 3000:3499 (500 atoms) on core (1, 0, 7) 
+  Slice 3500:3644 (145 atoms) on core (1, 0, 8) 
+
+**** Vertex: 'Stim'
+Model: SpikeSourcePoisson
+Pop size: 2430
+Machine Vertices: 
+  Slice 0:499 (500 atoms) on core (1, 0, 9) 
+  Slice 500:999 (500 atoms) on core (1, 0, 10) 
+  Slice 1000:1499 (500 atoms) on core (1, 0, 11) 
+  Slice 1500:1999 (500 atoms) on core (1, 0, 12) 
+  Slice 2000:2429 (430 atoms) on core (1, 0, 13) 
+

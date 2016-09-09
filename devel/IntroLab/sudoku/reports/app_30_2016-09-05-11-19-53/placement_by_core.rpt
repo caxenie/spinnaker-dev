@@ -1,0 +1,154 @@
+        Placement Information by Core
+        =============================
+
+Generated: Mon Sep  5 11:20:01 2016 for target machine '192.168.240.253'
+
+**** Chip: (0, 0)
+Application cores: 18
+  Processor 1: Vertex: 'LiveSpikeReceiver', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: LivePacketGather
+
+
+  Processor 2: Vertex: 'Cells', pop size: 3645
+              Slice on this core: 0:254 (255 atoms)
+              Model: IFCurrExp
+
+
+  Processor 3: Vertex: 'Cells', pop size: 3645
+              Slice on this core: 255:509 (255 atoms)
+              Model: IFCurrExp
+
+
+  Processor 4: Vertex: 'Cells', pop size: 3645
+              Slice on this core: 510:764 (255 atoms)
+              Model: IFCurrExp
+
+
+  Processor 5: Vertex: 'Cells', pop size: 3645
+              Slice on this core: 765:1019 (255 atoms)
+              Model: IFCurrExp
+
+
+  Processor 6: Vertex: 'Cells', pop size: 3645
+              Slice on this core: 1020:1274 (255 atoms)
+              Model: IFCurrExp
+
+
+  Processor 7: Vertex: 'Cells', pop size: 3645
+              Slice on this core: 1275:1529 (255 atoms)
+              Model: IFCurrExp
+
+
+  Processor 8: Vertex: 'Cells', pop size: 3645
+              Slice on this core: 1530:1784 (255 atoms)
+              Model: IFCurrExp
+
+
+  Processor 9: Vertex: 'Cells', pop size: 3645
+              Slice on this core: 1785:2039 (255 atoms)
+              Model: IFCurrExp
+
+
+  Processor 10: Vertex: 'Cells', pop size: 3645
+              Slice on this core: 2040:2294 (255 atoms)
+              Model: IFCurrExp
+
+
+  Processor 11: Vertex: 'Cells', pop size: 3645
+              Slice on this core: 2295:2549 (255 atoms)
+              Model: IFCurrExp
+
+
+  Processor 12: Vertex: 'Cells', pop size: 3645
+              Slice on this core: 2550:2804 (255 atoms)
+              Model: IFCurrExp
+
+
+  Processor 13: Vertex: 'Cells', pop size: 3645
+              Slice on this core: 2805:3059 (255 atoms)
+              Model: IFCurrExp
+
+
+  Processor 14: Vertex: 'Cells', pop size: 3645
+              Slice on this core: 3060:3314 (255 atoms)
+              Model: IFCurrExp
+
+
+  Processor 15: Vertex: 'Cells', pop size: 3645
+              Slice on this core: 3315:3569 (255 atoms)
+              Model: IFCurrExp
+
+
+  Processor 16: Vertex: 'Cells', pop size: 3645
+              Slice on this core: 3570:3644 (75 atoms)
+              Model: IFCurrExp
+
+
+**** Chip: (1, 0)
+Application cores: 18
+  Processor 1: Vertex: 'Noise', pop size: 3645
+              Slice on this core: 0:499 (500 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 2: Vertex: 'Noise', pop size: 3645
+              Slice on this core: 500:999 (500 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 3: Vertex: 'Noise', pop size: 3645
+              Slice on this core: 1000:1499 (500 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 4: Vertex: 'Noise', pop size: 3645
+              Slice on this core: 1500:1999 (500 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 5: Vertex: 'Noise', pop size: 3645
+              Slice on this core: 2000:2499 (500 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 6: Vertex: 'Noise', pop size: 3645
+              Slice on this core: 2500:2999 (500 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 7: Vertex: 'Noise', pop size: 3645
+              Slice on this core: 3000:3499 (500 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 8: Vertex: 'Noise', pop size: 3645
+              Slice on this core: 3500:3644 (145 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 9: Vertex: 'Stim', pop size: 2430
+              Slice on this core: 0:499 (500 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 10: Vertex: 'Stim', pop size: 2430
+              Slice on this core: 500:999 (500 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 11: Vertex: 'Stim', pop size: 2430
+              Slice on this core: 1000:1499 (500 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 12: Vertex: 'Stim', pop size: 2430
+              Slice on this core: 1500:1999 (500 atoms)
+              Model: SpikeSourcePoisson
+
+
+  Processor 13: Vertex: 'Stim', pop size: 2430
+              Slice on this core: 2000:2429 (430 atoms)
+              Model: SpikeSourcePoisson
+
+
